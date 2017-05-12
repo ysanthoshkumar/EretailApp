@@ -67,6 +67,84 @@ namespace EretailApp
             public ProductDetails()
         {
             InitializeComponent();
+
+            mylistvi.ItemsSource = ll;
+
+            Mainpicker.Items.Add("Mens");
+            Mainpicker.Items.Add("Womens");
+            Mainpicker.Items.Add("Kids");
+
+
+            Deptpicker.Items.Add("PepiJeans");
+            Deptpicker.Items.Add("Lives");
+            Deptpicker.Items.Add("Us Polo");
+            Deptpicker.Items.Add("Pan America");
+        }
+
+
+
+        private void onselecteditem(Object sender, EventArgs e)
+        {
+
+            var name = Mainpicker.Items[Mainpicker.SelectedIndex];
+            DisplayAlert(name, "SelectedItem", "Okay");
+            if (!name.Equals("") || !searchvalue.Text.Equals(""))
+            {
+                String str = searchvalue.Text;
+                if (!str.Equals(""))
+                {
+                    IEnumerable<ProductModel> searchresult = ll.Where(name1 => name1.name.Contains(str) || name1.name.Contains(name));
+                    mylistvi.ItemsSource = searchresult;
+                }
+
+            }
+        }
+
+        private void Deptonselecteditem(Object sender, EventArgs e)
+        {
+
+            var name = Deptpicker.Items[Deptpicker.SelectedIndex];
+            DisplayAlert(name, "SelectedItem", "Okay");
+            if (!name.Equals(""))
+            {
+                String str = searchvalue.Text;
+                IEnumerable<ProductModel> searchresult = ll.Where(name1 => name1.name.Contains(str) || name1.name.Contains(name));
+                mylistvi.ItemsSource = searchresult;
+            }
+
+
+
+        }
+
+
+        public void btnclick(Object o, EventArgs e)
+        {
+
+            String str = searchvalue.Text;
+            IEnumerable<ProductModel> searchresult = ll.Where(name1 => name1.name.Contains(str));
+            mylistvi.ItemsSource = searchresult;
+
+            //if (str.Equals(""))
+            //{
+            //    ll.Clear();
+            //}
+
+        }
+
+        public void back(Object o, EventArgs e)
+        {
+            Navigation.PushModalAsync(new MainPage());
+        }
+
+        public void AddProduct(Object o, EventArgs e)
+        {
+            Navigation.PushModalAsync(new ProductConfig());
+        }
+        public void AddProductTwo(Object o, EventArgs e)
+        {
+            Navigation.PushModalAsync(new ProductConfig());
         }
     }
+
 }
+

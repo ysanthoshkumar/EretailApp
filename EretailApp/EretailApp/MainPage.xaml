@@ -82,6 +82,7 @@
                   RowHeight="60"
                   BackgroundColor="#e8e8e8"
                           IsVisible="False"
+                          ItemSelected="OnMenuItemSelectedproducts"
                   >
 
 

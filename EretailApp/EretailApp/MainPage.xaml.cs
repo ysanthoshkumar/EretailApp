@@ -123,12 +123,30 @@ namespace EretailApp
 
 
     }
+
+
             else
             {
                 Detail = new NavigationPage((Page)Activator.CreateInstance(page));
                 IsPresented = false;
             }
+
+
+
         }
+        private void OnMenuItemSelectedproducts(object sender, SelectedItemChangedEventArgs ee)
+        {
+
+            var item = (MasterPageItem)ee.SelectedItem;
+            Type page = item.TargetType;
+            if (item.Title.Equals("Product"))
+            {
+                Navigation.PushModalAsync(new ProductDetails());
+
+            }
+
+        }
+
         public void back(Object o, EventArgs e)
         {
             Navigation.PushModalAsync(new MainPage());
@@ -137,6 +155,10 @@ namespace EretailApp
 
 
        
+
+
+
+
 
 
 
