@@ -10,19 +10,19 @@
     <PackageArchitecture>arm</PackageArchitecture>
     <PackageIdentityName>c5d78338-c4d9-4d5f-80e9-cc60827cf183</PackageIdentityName>
     <PackageIdentityPublisher>CN=ecpl</PackageIdentityPublisher>
-    <IntermediateOutputPath>E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\ARM\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\ARM\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\ARM\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\ARM\Debug\EretailApp.UWP.exe">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Debug\EretailApp.UWP.exe">
       <PackagePath>entrypoint\EretailApp.UWP.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ecpldev\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -346,354 +346,354 @@
     <AppxPackagedFile Include="C:\Users\ecpldev\.nuget\packages\Xamarin.Forms\2.3.4.231\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\EretailApp.dll">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll">
       <PackagePath>EretailApp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\arrow.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\arrow.png">
       <PackagePath>arrow.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\arrow.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\arrow.png">
       <PackagePath>Assets\arrow.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\brand.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\brand.png">
       <PackagePath>Assets\brand.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\categeory.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\categeory.png">
       <PackagePath>Assets\categeory.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\customer.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\customer.png">
       <PackagePath>Assets\customer.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\departmnt.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\departmnt.png">
       <PackagePath>Assets\departmnt.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\home.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\home.png">
       <PackagePath>Assets\home.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\leftarr.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\leftarr.png">
       <PackagePath>Assets\leftarr.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\logout.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\logout.png">
       <PackagePath>Assets\logout.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\prod.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\prod.png">
       <PackagePath>Assets\prod.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\recive.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\recive.png">
       <PackagePath>Assets\recive.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\sal.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\sal.png">
       <PackagePath>Assets\sal.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\saleee.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\saleee.png">
       <PackagePath>Assets\saleee.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\sales.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\sales.png">
       <PackagePath>Assets\sales.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\setting.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\setting.png">
       <PackagePath>Assets\setting.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\sss.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\sss.png">
       <PackagePath>Assets\sss.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\supply.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\supply.png">
       <PackagePath>Assets\supply.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\swamy.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\swamy.png">
       <PackagePath>Assets\swamy.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\tax.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\tax.png">
       <PackagePath>Assets\tax.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\vivekanada.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\vivekanada.png">
       <PackagePath>Assets\vivekanada.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\brand.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\brand.png">
       <PackagePath>brand.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\categeory.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\categeory.png">
       <PackagePath>categeory.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\customer.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\customer.png">
       <PackagePath>customer.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\departmnt.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\departmnt.png">
       <PackagePath>departmnt.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\home.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\home.png">
       <PackagePath>home.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\ic_user.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\ic_user.png">
       <PackagePath>ic_user.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\leftarr.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\leftarr.png">
       <PackagePath>leftarr.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\logo.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\logo.png">
       <PackagePath>logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\logout.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\logout.png">
       <PackagePath>logout.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\prod.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\prod.png">
       <PackagePath>prod.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\LockScreenLogo.scale-100.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\LockScreenLogo.scale-100.png">
       <PackagePath>Assets\LockScreenLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\LockScreenLogo.scale-125.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\LockScreenLogo.scale-125.png">
       <PackagePath>Assets\LockScreenLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\LockScreenLogo.scale-150.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\LockScreenLogo.scale-150.png">
       <PackagePath>Assets\LockScreenLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\LockScreenLogo.scale-400.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\LockScreenLogo.scale-400.png">
       <PackagePath>Assets\LockScreenLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\recive.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\recive.png">
       <PackagePath>recive.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\sal.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\sal.png">
       <PackagePath>sal.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\saleee.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\saleee.png">
       <PackagePath>saleee.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\sales.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\sales.png">
       <PackagePath>sales.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\setting.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\setting.png">
       <PackagePath>setting.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\sss.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\sss.png">
       <PackagePath>sss.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\supply.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\supply.png">
       <PackagePath>supply.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\swamy.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\swamy.png">
       <PackagePath>swamy.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\tax.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\tax.png">
       <PackagePath>tax.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Uploadimg.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Uploadimg.png">
       <PackagePath>Uploadimg.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\vivekanada.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\vivekanada.png">
       <PackagePath>vivekanada.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\arrow.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\arrow.png">
       <PackagePath>EretailApp\arrow.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\customer.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\customer.png">
       <PackagePath>EretailApp\customer.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\home.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\home.png">
       <PackagePath>EretailApp\home.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\Images\arrow.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\arrow.png">
       <PackagePath>EretailApp\Images\arrow.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\Images\brand.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\brand.png">
       <PackagePath>EretailApp\Images\brand.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\Images\categeory.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\categeory.png">
       <PackagePath>EretailApp\Images\categeory.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\Images\customer.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\customer.png">
       <PackagePath>EretailApp\Images\customer.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\Images\departmnt.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\departmnt.png">
       <PackagePath>EretailApp\Images\departmnt.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\Images\home.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\home.png">
       <PackagePath>EretailApp\Images\home.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\Images\leftarr.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\leftarr.png">
       <PackagePath>EretailApp\Images\leftarr.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\Images\logo.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\logo.png">
       <PackagePath>EretailApp\Images\logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\Images\logout.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\logout.png">
       <PackagePath>EretailApp\Images\logout.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\Images\prod.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\prod.png">
       <PackagePath>EretailApp\Images\prod.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\Images\recive.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\recive.png">
       <PackagePath>EretailApp\Images\recive.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\Images\sal.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\sal.png">
       <PackagePath>EretailApp\Images\sal.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\Images\saleee.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\saleee.png">
       <PackagePath>EretailApp\Images\saleee.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\Images\setting.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\setting.png">
       <PackagePath>EretailApp\Images\setting.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\Images\sss.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\sss.png">
       <PackagePath>EretailApp\Images\sss.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\Images\supply.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\supply.png">
       <PackagePath>EretailApp\Images\supply.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\Images\tax.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\tax.png">
       <PackagePath>EretailApp\Images\tax.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\leftarr.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\leftarr.png">
       <PackagePath>EretailApp\leftarr.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\logo.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\logo.png">
       <PackagePath>EretailApp\logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\logout.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\logout.png">
       <PackagePath>EretailApp\logout.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\prod.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\prod.png">
       <PackagePath>EretailApp\prod.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\sal.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\sal.png">
       <PackagePath>EretailApp\sal.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\saleee.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\saleee.png">
       <PackagePath>EretailApp\saleee.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\sales.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\sales.png">
       <PackagePath>EretailApp\sales.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\setting.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\setting.png">
       <PackagePath>EretailApp\setting.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\sss.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\sss.png">
       <PackagePath>EretailApp\sss.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\swamy.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\swamy.png">
       <PackagePath>EretailApp\swamy.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\vivekanada.png">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\vivekanada.png">
       <PackagePath>EretailApp\vivekanada.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Assets\sa.jpg">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\sa.jpg">
       <PackagePath>Assets\sa.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\Images\sa.jpg">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\sa.jpg">
       <PackagePath>EretailApp\Images\sa.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\ARM\Debug\EretailApp.UWP.xr.xml">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Debug\EretailApp.UWP.xr.xml">
       <PackagePath>EretailApp.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
@@ -705,11 +705,11 @@
     <AppxPackagedFile Include="C:\Users\ecpldev\.nuget\packages\Xamarin.Forms\2.3.4.231\lib\uap10.0\Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\ARM\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\ARM\Debug\Core\EretailApp.UWP.exe">
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Debug\Core\EretailApp.UWP.exe">
       <PackagePath>EretailApp.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

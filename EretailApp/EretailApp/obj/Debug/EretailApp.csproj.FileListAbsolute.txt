@@ -79,3 +79,5 @@ E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\
 E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.csprojResolveAssemblyReference.cache
 E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb
 E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\EretailApp.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll.mdb

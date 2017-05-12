@@ -1,2 +1,2 @@
-E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.UWP\EretailApp.UWP.csproj;arm
-E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\EretailApp.csproj;neutral
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\EretailApp.UWP.csproj;arm
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\EretailApp.csproj;neutral
