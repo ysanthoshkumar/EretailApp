@@ -41,14 +41,14 @@
       <StackLayout Spacing="5" Margin="10" HorizontalOptions="FillAndExpand" >
         <Image Source="logo.png" Margin="0,0,0,30"  HorizontalOptions="Center"   />
         
-              <StackLayout Orientation="Horizontal"    Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+              <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
                
                   <local:BoxBorderEntry  Placeholder="UserName " WidthRequest="300" HorizontalOptions="FillAndExpand"  TextColor="#787878" PlaceholderColor="#C3C3C3"
                                 Text="{Binding UserName, Mode=TwoWay}"  />
               </StackLayout>
           
        
-              <StackLayout Orientation="Horizontal" Padding="0" Spacing="0" HorizontalOptions="FillAndExpand"  >
+              <StackLayout Orientation="Horizontal" Padding="0" Spacing="0"   HorizontalOptions="FillAndExpand"  >
               
                   <local:BoxBorderEntry  Placeholder="Password"  WidthRequest="300"  IsPassword="True" HorizontalOptions="FillAndExpand"
                                  Text="{Binding UserPassword, Mode=TwoWay}"  TextColor="#787878" PlaceholderColor="#C3C3C3"/>

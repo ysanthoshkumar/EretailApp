@@ -28,27 +28,8 @@
 
   <StackLayout  Orientation="Vertical"  VerticalOptions="FillAndExpand"  BackgroundColor="#FFFFFF" HorizontalOptions="FillAndExpand"   Padding="2"  Margin="2"  >
 
-    <StackLayout Orientation="Horizontal"  HorizontalOptions="FillAndExpand" BackgroundColor="#EBEBEB" >
-      <Image
-               HeightRequest="30"
-                     Margin="20,0,20,0"
-               WidthRequest="30"
-                    Source="backicon.png"
-              VerticalOptions="Center"
-                 
-              HorizontalOptions="Start">
-        <Image.GestureRecognizers>
-          <TapGestureRecognizer
-                      Tapped="back"
-                         />
-        </Image.GestureRecognizers>
-
-
-      </Image>
-      <Label  x:Name="lblproduct" Text="Products" FontSize="20"  HorizontalOptions="FillAndExpand" FontFamily="Bold" TextColor="#000000"></Label>
-    </StackLayout>
-    <StackLayout >
-      <Grid BackgroundColor="#EBEBEB" Padding="5">
+   <StackLayout >
+      <Grid  BackgroundColor="#FE7C08" Padding="5">
         <Grid.ColumnDefinitions >
           <ColumnDefinition Width="*" />
           <ColumnDefinition Width="*" />
@@ -56,9 +37,25 @@
         <Grid.RowDefinitions>
           <RowDefinition Height="50" />
         </Grid.RowDefinitions>
-        <Label  Text="Add,View and Edit" VerticalTextAlignment="Center"     Grid.Row="0" Grid.Column="0"    FontSize="20"  FontFamily="Bold" TextColor="#000000"></Label>
-        <Button  x:Name="btnImport"   Text="Import"   TextColor="White" BackgroundColor="#446a81" Grid.Row="0" Grid.Column="1"  Clicked="AddProductTwo"></Button>
-        <Button x:Name="btnAddProduct" Text="ADDProduct"   TextColor="White" BackgroundColor="#41af4b" Grid.Row="0" Grid.Column="2"  Clicked="AddProduct"></Button>
+        <Image
+               HeightRequest="30"
+                     Margin="20,0,20,0"
+               WidthRequest="30"
+                    Source="leftcir.png"
+              VerticalOptions="Center"
+                 
+              HorizontalOptions="Start"   Grid.Row="0" Grid.Column="0">
+          <Image.GestureRecognizers>
+            <TapGestureRecognizer
+                        Tapped="back"
+                         />
+          </Image.GestureRecognizers>
+
+
+        </Image>
+        <Label  Text="Products" VerticalTextAlignment="Center"     Grid.Row="0" Grid.Column="1"   HorizontalOptions="Start"    FontSize="20"  FontFamily="Bold" TextColor="White"></Label>
+        <Button  x:Name="btnImport"   Text="Import"   TextColor="White" BackgroundColor="#446a81" Grid.Row="0" Grid.Column="2"  Clicked="AddProductTwo"></Button>
+        <Button x:Name="btnAddProduct" Text="ADDProduct"   TextColor="White" BackgroundColor="#41af4b" Grid.Row="0" Grid.Column="3"  Clicked="AddProduct"></Button>
       </Grid>
     </StackLayout>
 

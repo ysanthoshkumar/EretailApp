@@ -14,5 +14,10 @@ namespace EretailApp
         {
             InitializeComponent();
         }
+
+        public void back(Object o, EventArgs e)
+        {
+            Navigation.PushModalAsync(new ProductDetails());
+        }
     }
 }
