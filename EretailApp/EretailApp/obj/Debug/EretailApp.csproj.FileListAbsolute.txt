@@ -1,0 +1,81 @@
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.MainPage.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.App.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Home.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Sales.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Logout.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Setup.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Products.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Customer.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Reports.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.ProductList.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.pdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.pdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Core.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Platform.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Core.pdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Core.xml
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Platform.pdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Xaml.pdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.csprojResolveAssemblyReference.cache
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Sidemenu.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll.mdb
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\EretailApp.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\EretailApp.pdb
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Core.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Platform.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Core.pdb
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Core.xml
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Platform.pdb
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Xaml.pdb
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.csprojResolveAssemblyReference.cache
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.MainPage.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.App.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Home.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Sales.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Logout.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Setup.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Products.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Customer.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Reports.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.ProductList.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Sidemenu.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.PageTesting.xaml.g.cs
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.pdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\EretailApp.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\EretailApp.pdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Core.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Platform.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Xaml.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Core.pdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Core.xml
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Platform.pdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Xaml.pdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Xaml.xml
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.MainPage.xaml.g.cs
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.App.xaml.g.cs
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Home.xaml.g.cs
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Sales.xaml.g.cs
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Logout.xaml.g.cs
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Setup.xaml.g.cs
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Products.xaml.g.cs
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Customer.xaml.g.cs
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Reports.xaml.g.cs
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.ProductList.xaml.g.cs
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Sidemenu.xaml.g.cs
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.PageTesting.xaml.g.cs
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.LoginForm.xaml.g.cs
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.ProductDetails.xaml.g.cs
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.ProductConfig.xaml.g.cs
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.pdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.csprojResolveAssemblyReference.cache
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp\bin\Debug\EretailApp.dll.mdb

@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:EretailApp"
+             x:Class="EretailApp.ProductConfig">
+  <ContentPage.Resources>
+
+    <ResourceDictionary x:Name="AppDictionary">
+      <Color x:Key="BackgroundColor">#FFFFFF</Color>
+      <Color x:Key="BorderColor">#C3C3C3</Color>
+      <Style x:Key="InternalViewStyle" TargetType="ContentView">
+        <Setter Property="BackgroundColor"
+            Value="{StaticResource BackgroundColor}"/>
+        <Setter Property="HorizontalOptions" Value="Fill"/>
+        <Setter Property="Padding" Value="3,3,3,3"></Setter>
+      </Style>
+      <Style x:Key="BorderStyle" TargetType="ContentView">
+        <Setter Property="BackgroundColor" Value="{StaticResource BorderColor}"/>
+        <Setter Property="Padding" Value="1,1,1,1"></Setter>
+      </Style>
+      <Style x:Key="plainEntry" TargetType="Entry">
+        <Setter Property="BackgroundColor" Value="#eee"/>
+        <Setter Property="TextColor" Value="Black" />
+        <Setter Property="FontSize" Value="16" />
+      </Style>
+
+      <Style x:Key="ButtonStyle" TargetType="Button">
+        <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+        <Setter Property="BackgroundColor" Value="#41af4b"/>
+        <Setter Property="BorderColor" Value="Blue"/>
+        <Setter Property="HeightRequest" Value="42"/>
+        <Setter Property="BorderRadius" Value="5"/>
+        <Setter Property="BorderWidth" Value="0" />
+        <Setter Property="TextColor" Value="White"/>
+      </Style>
+
+
+    </ResourceDictionary>
+  </ContentPage.Resources>
+
+  <StackLayout Padding="10" Spacing="10" Orientation="Vertical"  Margin="10">
+    <StackLayout>
+      <Grid BackgroundColor="#FE7C08" Padding="5">
+        <Grid.ColumnDefinitions >
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Image Source="backicon.png"
+                  HorizontalOptions="Start"
+                 Grid.Row="0" Grid.Column="0" >
+        </Image>
+        <Label  Text="Create Product" VerticalTextAlignment="Center"    Grid.Row="0" Grid.Column="1"  HorizontalTextAlignment="Center"    FontSize="20"  FontFamily="Bold" TextColor="White"></Label>
+        <Button  Text="Cancel"    Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" ></Button>
+        <Button  Text="Save" Style="{StaticResource ButtonStyle}"  Grid.Row="0" Grid.Column="3"   ></Button>
+      </Grid>
+    </StackLayout>
+
+
+
+
+    <ScrollView>
+      <StackLayout  Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+
+
+
+        <!-- <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#FE7C08" >
+     <Image
+                 HeightRequest="30"
+                       Margin="20,0,20,0"
+                 WidthRequest="30"
+                      Source="backicon.png"
+                VerticalOptions="Center"
+                 
+                HorizontalOptions="Start">
+        
+      </Image>
+        <Label  x:Name="product" Text="Create Product" VerticalTextAlignment="Center"       HorizontalTextAlignment="Center"    FontSize="20"  HorizontalOptions="Center" FontFamily="Bold" TextColor="#000000"></Label>
+        <Button  x:Name="Cancel"   Text="Cancel"  HorizontalOptions="End"  TextColor="White" BackgroundColor="#446a81" ></Button>
+        <Button x:Name="Save" Text="Save" Style="{StaticResource ButtonStyle}"  HorizontalOptions="End"  ></Button>
+      </StackLayout>
+      -->
+        <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
+          <ContentView Style="{StaticResource BorderStyle}" >
+            <ContentView Style="{StaticResource InternalViewStyle}">
+              <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" Margin="0,0,0,10">
+
+                  <local:BoxBorderEntry  Placeholder="Enter Product"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                  <local:BoxBorderEntry  Placeholder="Enter Short Desc"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" >
+
+                  <local:BoxBorderEntry  Placeholder="Enter Full Description"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                  <Image Source="Uploadimg.png" HorizontalOptions="FillAndExpand"  />
+                </StackLayout>
+              </StackLayout>
+            </ContentView>
+          </ContentView>
+        </ContentView>
+
+
+        <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
+          <ContentView Style="{StaticResource BorderStyle}" >
+            <ContentView Style="{StaticResource InternalViewStyle}">
+              <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" >
+
+                  <Picker x:Name="CategoryPicker"  TextColor="#000000"  Title="Choose category"
+                       HorizontalOptions="FillAndExpand"   BackgroundColor="White"   />
+
+                  <Picker x:Name="DepartmentPicker"  TextColor="#000000"  Title="Choose Department"
+                     HorizontalOptions="FillAndExpand"   BackgroundColor="White"   />
+
+                  <Picker x:Name="BrandPicker"  TextColor="#000000"  Title="Choose Brand"
+                       HorizontalOptions="FillAndExpand"   BackgroundColor="White"   />
+                </StackLayout>
+
+
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5">
+
+                  <local:BoxBorderEntry  Placeholder="Enter UOM"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                  <local:BoxBorderEntry  Placeholder="Enter Tax"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                  <local:BoxBorderEntry  Placeholder="Enter Vendor"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                </StackLayout>
+              </StackLayout>
+            </ContentView>
+          </ContentView>
+        </ContentView>
+
+
+        <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
+          <ContentView Style="{StaticResource BorderStyle}" >
+            <ContentView Style="{StaticResource InternalViewStyle}">
+
+              <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  >
+
+                <local:BoxBorderEntry  Placeholder="Enter CP"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                <local:BoxBorderEntry  Placeholder="Enter MarkUp/Down"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                <local:BoxBorderEntry  Placeholder="Enter Sp"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                <local:BoxBorderEntry  Placeholder="Enter MRP"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+              </StackLayout>
+
+            </ContentView>
+          </ContentView>
+        </ContentView>
+
+        <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
+          <ContentView Style="{StaticResource BorderStyle}" >
+            <ContentView Style="{StaticResource InternalViewStyle}">
+
+              <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  >
+
+                <local:BoxBorderEntry  Placeholder="Enter EAN/UPC"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                <local:BoxBorderEntry  Placeholder="Enter QOH"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                <local:BoxBorderEntry  Placeholder="Enter MBQ"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+              </StackLayout>
+
+            </ContentView>
+          </ContentView>
+        </ContentView>
+
+
+        <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
+          <ContentView Style="{StaticResource BorderStyle}" >
+            <ContentView Style="{StaticResource InternalViewStyle}">
+
+              <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" >
+                <Label   Text="InActive" FontSize="18"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Center" VerticalOptions="Center" />
+                <Label   Text="Allow Decimal" FontSize="18"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Center" VerticalOptions="Center" />
+                <Label   Text="Maintain Inventory" FontSize="18"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Center" VerticalOptions="Center" />
+                <Label   Text="Allow Only scan" FontSize="18"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Center" VerticalOptions="Center" />
+
+                <Label   Text="OpenRate" FontSize="18"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Center" VerticalOptions="Center" />
+              </StackLayout>
+            </ContentView>
+          </ContentView>
+        </ContentView>
+
+      </StackLayout>
+
+    </ScrollView>
+  </StackLayout>
+</ContentPage>

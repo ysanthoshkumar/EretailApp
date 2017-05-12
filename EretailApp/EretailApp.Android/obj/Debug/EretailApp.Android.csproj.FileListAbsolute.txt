@@ -1,0 +1,192 @@
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\EretailApp.Android.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\EretailApp.Android.pdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\EretailApp.Android.apk
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\EretailApp.Android-Signed.apk
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\EretailApp.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\FormsViewGroup.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Android.Support.Design.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Android.Support.v4.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Core.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Platform.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\EretailApp.pdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\FormsViewGroup.pdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\FormsViewGroup.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Core.pdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Core.xml
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\EretailApp.Android.csprojResolveAssemblyReference.cache
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\EretailApp.Android.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\EretailApp.Android.pdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\bin\EretailApp.Android.apk
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\icon.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable-hdpi\icon.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable-xhdpi\icon.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable-xxhdpi\icon.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\layout\tabbar.xml
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\layout\toolbar.xml
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\values\styles.xml
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\vivekanada.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\swamy.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\sa.jpg
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\arrow.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\R.cs.flag
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\uploadflags.txt
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\EretailApp.Android.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\EretailApp.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Java.Interop.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\Mono.Android.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\mscorlib.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\System.ComponentModel.Composition.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\System.Core.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\System.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\System.Net.Http.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\System.Runtime.Serialization.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\System.ServiceModel.Internals.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\System.Xml.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\bin\Debug\System.Xml.Linq.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\EretailApp.Android.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\EretailApp.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\Java.Interop.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\Mono.Android.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\mscorlib.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.Core.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.Net.Http.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.Xml.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\logo.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\prod.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\customer.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\home.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\logout.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\saleee.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\sales.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\setting.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\sal.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\sss.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\recive.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\supply.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\tax.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\brand.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\categeory.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\departmnt.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\leftarr.png
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.Android\obj\Debug\EretailApp.Android.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\EretailApp.Android.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\EretailApp.Android.pdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\EretailApp.Android.apk
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\EretailApp.Android-Signed.apk
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\EretailApp.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\FormsViewGroup.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Android.Support.Design.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Android.Support.v4.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Core.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Platform.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Xaml.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\EretailApp.pdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\FormsViewGroup.pdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\FormsViewGroup.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Core.pdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Core.xml
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Xaml.xml
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\EretailApp.Android.csprojResolveAssemblyReference.cache
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\EretailApp.Android.dll
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\EretailApp.Android.pdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\android\bin\EretailApp.Android.apk
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\icon.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable-hdpi\icon.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable-xhdpi\icon.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable-xxhdpi\icon.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\layout\tabbar.xml
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\layout\toolbar.xml
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\values\styles.xml
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\vivekanada.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\swamy.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\sa.jpg
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\arrow.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\logo.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\prod.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\customer.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\home.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\logout.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\saleee.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\sales.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\setting.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\sal.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\sss.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\recive.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\supply.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\tax.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\brand.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\categeory.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\departmnt.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\leftarr.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\editextborder.xml
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\uploadimg.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\res\drawable\ic_user.png
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\R.cs.flag
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\uploadflags.txt
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\EretailApp.Android.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\EretailApp.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Java.Interop.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\Mono.Android.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\mscorlib.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\System.ComponentModel.Composition.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\System.Core.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\System.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\System.Net.Http.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\System.Runtime.Serialization.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\System.ServiceModel.Internals.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\System.Xml.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\System.Xml.Linq.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\android\assets\EretailApp.Android.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\android\assets\EretailApp.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\android\assets\Java.Interop.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\android\assets\Mono.Android.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\android\assets\mscorlib.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.Core.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.Net.Http.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.Xml.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\obj\Debug\EretailApp.Android.dll.mdb
+E:\Medium\SanthoshXmarinForms\EretailApp - Copy\EretailApp\EretailApp.Android\bin\Debug\EretailApp.Android.dll.mdb

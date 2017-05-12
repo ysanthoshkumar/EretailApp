@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MSCommunity_Xamarin"
+             x:Class="EretailApp.MainPage"
+                  x:Name="masterpl"
+                  IsVisible="True"
+                  >
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu"
+                 BackgroundColor="#e8e8e8">
+            
+            <StackLayout Orientation="Vertical">
+
+                <!-- 
+                
+             This StackLayout you can use for other
+             data that you want to have in your menu drawer
+        -->
+                    <StackLayout BackgroundColor="#e74c3c"
+                     HeightRequest="170"
+                             >
+                    <Image
+                  HeightRequest="50"
+                        Margin="0,0,20,0"
+                  WidthRequest="50"
+                       Source="leftcir.png"
+                 VerticalOptions="Center"
+                 
+                 HorizontalOptions="End">
+
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                  Tapped="back"
+                         />
+                        </Image.GestureRecognizers>
+
+                    </Image>
+                    <Image
+                        Source="logo.png"
+                        HeightRequest="100"
+                        WidthRequest="100"
+                        VerticalOptions="Center"
+                 HorizontalOptions="CenterAndExpand"/>
+                    
+                    
+                </StackLayout>
+              
+                <ListView x:Name="navigationDrawerList"
+                  RowHeight="60"
+                  BackgroundColor="#e8e8e8"
+                          IsVisible="True"
+                  ItemSelected="OnMenuItemSelected">
+                    
+
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+
+                                    <!-- Main design for our menu items -->
+                                    <StackLayout VerticalOptions="FillAndExpand"
+                             Orientation="Horizontal"
+                             Padding="20,10,0,10"
+                             Spacing="20">
+
+                                        <Image Source="{Binding Icon}"
+                         WidthRequest="40"
+                         HeightRequest="40"
+                         VerticalOptions="Center" />
+
+                                        <Label Text="{Binding Title}"
+                         FontSize="Medium"
+                         VerticalOptions="Center"
+                         TextColor="Black"/>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                <ListView x:Name="navigationDrawerList1"
+                  RowHeight="60"
+                  BackgroundColor="#e8e8e8"
+                          IsVisible="False"
+                  >
+
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid Padding="3">
+
+                                    <StackLayout Orientation="Horizontal" VerticalOptions="Center" HeightRequest="50">
+
+                                        <Image Source="{Binding Icon1}"
+                         WidthRequest="30"
+                         HeightRequest="30"
+                         VerticalOptions="Center" Margin="0,0,10,0"/>
+
+                                        <Label Text="{Binding Title}" TextColor="#35A08E" FontSize="19" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+                                        <Image Source="{Binding Icon}" HorizontalOptions="End" Aspect="AspectFill"></Image>
+
+                                    </StackLayout>
+                                </Grid>
+                               
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+
+                </ListView>
+
+            </StackLayout>
+
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>
