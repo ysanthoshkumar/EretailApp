@@ -130,6 +130,7 @@
     <Content Include="Assets\swamy.png" />
     <Content Include="Assets\tax.png" />
     <Content Include="Assets\vivekanada.png" />
+    <Content Include="back.png" />
     <Content Include="brand.png" />
     <Content Include="categeory.png" />
     <Content Include="customer.png" />

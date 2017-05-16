@@ -131,10 +131,10 @@ namespace EretailApp
 
         }
 
-        public void back(Object o, EventArgs e)
-        {
-            Navigation.PushModalAsync(new MainPage());
-        }
+        //public void back(Object o, EventArgs e)
+        //{
+        //    Navigation.PushModalAsync(new MainPage());
+        //}
 
         public void AddProduct(Object o, EventArgs e)
         {

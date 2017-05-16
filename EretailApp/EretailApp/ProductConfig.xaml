@@ -7,7 +7,7 @@
 
     <ResourceDictionary x:Name="AppDictionary">
       <Color x:Key="BackgroundColor">#FFFFFF</Color>
-      <Color x:Key="BorderColor">#C3C3C3</Color>
+      <Color x:Key="BorderColor">#FF696565</Color>
       <Style x:Key="InternalViewStyle" TargetType="ContentView">
         <Setter Property="BackgroundColor"
             Value="{StaticResource BackgroundColor}"/>
@@ -49,10 +49,9 @@
           <RowDefinition Height="50" />
         </Grid.RowDefinitions>
         <Image
-                HeightRequest="30"
-                      Margin="20,0,20,0"
-                WidthRequest="30"
-                     Source="leftcir.png"
+                   Aspect="AspectFill"
+                    Margin="10"
+                     Source="back.png"
                VerticalOptions="Center"
                  
                HorizontalOptions="Start"   Grid.Row="0" Grid.Column="0">
@@ -115,7 +114,7 @@
                    </StackLayout>
                 </StackLayout>
 
-                  <Image Source="Uploadimg.png" Margin="5"    HeightRequest="200" WidthRequest="200" HorizontalOptions="End"   />
+                  <Image Source="Uploadimg.png" Margin="5,0,5,5"  Aspect="Fill"  HeightRequest="200" WidthRequest="200" HorizontalOptions="End"   />
                </StackLayout>
             </ContentView>
           </ContentView>
@@ -142,11 +141,11 @@
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5">
 
-                  <local:BoxBorderEntry  Placeholder="Enter UOM"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                  <local:BoxBorderEntry  Placeholder="Enter UOM"  WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
-                  <local:BoxBorderEntry  Placeholder="Enter Tax"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                  <local:BoxBorderEntry  Placeholder="Enter Tax"  WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
-                  <local:BoxBorderEntry  Placeholder="Enter Vendor"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                  <local:BoxBorderEntry  Placeholder="Enter Vendor"  WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
                 </StackLayout>
               </StackLayout>
             </ContentView>
@@ -160,13 +159,13 @@
 
               <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  >
 
-                <local:BoxBorderEntry  Placeholder="Enter CP"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                <local:BoxBorderEntry  Placeholder="Enter CP"  WidthRequest="60"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
-                <local:BoxBorderEntry  Placeholder="Enter MarkUp/Down"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                <local:BoxBorderEntry  Placeholder="Enter MarkUp/Down"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
-                <local:BoxBorderEntry  Placeholder="Enter Sp"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                <local:BoxBorderEntry  Placeholder="Enter Sp"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
-                <local:BoxBorderEntry  Placeholder="Enter MRP"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                <local:BoxBorderEntry  Placeholder="Enter MRP"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
               </StackLayout>
 
             </ContentView>

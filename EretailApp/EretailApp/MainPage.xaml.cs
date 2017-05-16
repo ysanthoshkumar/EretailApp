@@ -25,7 +25,7 @@ namespace EretailApp
             get; set;
 
         }
-
+        public object DisplayTitle { get; private set; }
 
         public MainPage()
         {
@@ -44,7 +44,7 @@ namespace EretailApp
             var page5 = new MasterPageItem() { Title = "Reports", Icon = "sss.png", TargetType = typeof(Reports) };
             var page6 = new MasterPageItem() { Title = "Setup", Icon = "setting.png", TargetType = typeof(Setup) };
             var page7 = new MasterPageItem() { Title = "Logout", Icon = "logout.png", TargetType = typeof(Logout) };
-
+          //  var page8 = new MasterPageItem() { Title = "Categeory", Icon = "categeory.png",  TargetType = typeof(categoryForm) };
 
             //var page6 = new MasterPageItem() { Title = "Login", Icon = "bui.png", TargetType = typeof(Page3) };
             //var page7 = new MasterPageItem() { Title = "Register", Icon = "sim.png", TargetType = typeof(Page1) };
@@ -59,13 +59,16 @@ namespace EretailApp
             menuList.Add(page5);
             menuList.Add(page6);
             menuList.Add(page7);
-            //menuList.Add(page9);
+           // menuList.Add(page8);
 
             // Setting our list to be ItemSource for ListView in MainPage.xaml
             navigationDrawerList.ItemsSource = menuList;
            
             // Initial navigation, this can be used for our home page
-            Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Home)));
+
+
+
+           Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Home)));
 
         }
 
@@ -92,7 +95,7 @@ namespace EretailApp
                 // Here you can define title for item, 
                 // icon on the left side, and page that you want to open after selection
                 var page1 = new MasterPageItem() {Icon1="prod.png", Title = "Product", TargetType=typeof(ProductDetails)};
-                var page2 = new MasterPageItem() { Icon1="categeory.png", Title = "Categeory" };
+                var page2 = new MasterPageItem() { Icon1="categeory.png", Title = "Categeory", TargetType = typeof(categoryForm) };
                 var page3 = new MasterPageItem() { Icon1 = "departmnt.png", Title = "Department" };
                 var page4 = new MasterPageItem() { Icon1 = "brand.png", Title = "Brand"};
                 var page5 = new MasterPageItem() { Icon1 = "supply.png", Title = "Supplier"};
@@ -117,7 +120,7 @@ namespace EretailApp
                 // Setting our list to be ItemSource for ListView in MainPage.xaml
                 navigationDrawerList1.ItemsSource = menuList1;
 
-
+                  Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Home)));
 
       
 
@@ -134,14 +137,71 @@ namespace EretailApp
 
 
         }
+
+
         private void OnMenuItemSelectedproducts(object sender, SelectedItemChangedEventArgs ee)
         {
 
             var item = (MasterPageItem)ee.SelectedItem;
             Type page = item.TargetType;
+
+
             if (item.Title.Equals("Product"))
             {
-                Navigation.PushModalAsync(new ProductDetails());
+                //Navigation.PushModalAsync(new ProductDetails());
+                Detail = new ProductDetails();
+                headertitle.Text = item.Title;
+              
+
+            }
+
+        if (item.Title.Equals("Categeory"))
+            {
+               // Navigation.PushModalAsync(new categoryForm());
+
+               Detail = new categoryForm();
+                headertitle.Text = item.Title;
+
+            }
+
+
+            if (item.Title.Equals("Department"))
+            {
+                // Navigation.PushModalAsync(new categoryForm());
+
+                Detail = new DeptForm();
+                headertitle.Text = item.Title;
+
+            }
+
+            if (item.Title.Equals("Brand"))
+            {
+                // Navigation.PushModalAsync(new categoryForm());
+
+                Detail = new BrandForm();
+                headertitle.Text = item.Title;
+
+            }
+
+
+            if (item.Title.Equals("Tax"))
+            {
+                // Navigation.PushModalAsync(new categoryForm());
+
+                Detail = new TaxForm();
+                headertitle.Text = item.Title;
+
+            }
+
+
+
+            if (item.Title.Equals("Supplier"))
+            {
+                // Navigation.PushModalAsync(new categoryForm());
+
+                Detail = new SupplierFormxaml();
+                headertitle.Text = item.Title;
+
 
             }
 

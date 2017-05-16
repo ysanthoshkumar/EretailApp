@@ -17,7 +17,7 @@ namespace EretailApp
 
         public void back(Object o, EventArgs e)
         {
-            Navigation.PushModalAsync(new ProductDetails());
+            Navigation.PushModalAsync(new MainPage());
         }
     }
 }

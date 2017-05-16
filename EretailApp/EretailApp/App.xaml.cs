@@ -13,6 +13,7 @@ namespace EretailApp
         {
             InitializeComponent();
             MainPage = new NavigationPage(new LoginForm());
+
            
         }
 

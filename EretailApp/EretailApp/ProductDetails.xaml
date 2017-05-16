@@ -6,7 +6,7 @@
 
     <ResourceDictionary x:Name="AppDictionary">
       <Color x:Key="BackgroundColor">#FFFFFF</Color>
-      <Color x:Key="BorderColor">#F6F6F6</Color>
+      <Color x:Key="BorderColor">#FF696565</Color>
       <Style x:Key="InternalViewStyle" TargetType="ContentView">
         <Setter Property="BackgroundColor"
             Value="{StaticResource BackgroundColor}"/>
@@ -26,7 +26,7 @@
   </ContentPage.Resources>
 
 
-  <StackLayout  Orientation="Vertical"  VerticalOptions="FillAndExpand"  BackgroundColor="#FFFFFF" HorizontalOptions="FillAndExpand"   Padding="2"  Margin="2"  >
+  <StackLayout  Orientation="Vertical"  VerticalOptions="FillAndExpand"  BackgroundColor="#FFFFFF" HorizontalOptions="FillAndExpand"   Padding="3"  Margin="3"  >
 
    <StackLayout >
       <Grid  BackgroundColor="#FE7C08" Padding="5">
@@ -37,7 +37,7 @@
         <Grid.RowDefinitions>
           <RowDefinition Height="50" />
         </Grid.RowDefinitions>
-        <Image
+       <!--  <Image
                HeightRequest="30"
                      Margin="20,0,20,0"
                WidthRequest="30"
@@ -53,9 +53,10 @@
 
 
         </Image>
-        <Label  Text="Products" VerticalTextAlignment="Center"     Grid.Row="0" Grid.Column="1"   HorizontalOptions="Start"    FontSize="20"  FontFamily="Bold" TextColor="White"></Label>
+        -->
+        <Label    VerticalTextAlignment="Center"     Grid.Row="0" Grid.Column="0"   HorizontalOptions="Start"    FontSize="20"  FontFamily="Bold" TextColor="White"></Label>
         <Button  x:Name="btnImport"   Text="Import"   TextColor="White" BackgroundColor="#446a81" Grid.Row="0" Grid.Column="2"  Clicked="AddProductTwo"></Button>
-        <Button x:Name="btnAddProduct" Text="ADDProduct"   TextColor="White" BackgroundColor="#41af4b" Grid.Row="0" Grid.Column="3"  Clicked="AddProduct"></Button>
+        <Button x:Name="btnAddProduct" Text="Create"   TextColor="White" BackgroundColor="#41af4b" Grid.Row="0" Grid.Column="3"  Clicked="AddProduct"></Button>
       </Grid>
     </StackLayout>
 
@@ -73,8 +74,13 @@
  <Button x:Name="btnAddProduct" Text="ADDProduct"   HorizontalOptions="End"  TextColor="White" BackgroundColor="#41af4b"  Clicked="AddProduct"></Button>
 </StackLayout>
 -->
-
-    <StackLayout Orientation="Horizontal">
+    
+    <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
+      <ContentView Style="{StaticResource BorderStyle}" >
+        <ContentView Style="{StaticResource InternalViewStyle}">
+          <StackLayout Orientation="Vertical" >
+            
+        <StackLayout Orientation="Horizontal"  Padding="5" Spacing="5">
 
       <StackLayout HorizontalOptions="FillAndExpand" >
 
@@ -89,10 +95,11 @@
       </StackLayout>
 
       <StackLayout HorizontalOptions="FillAndExpand" >
-        <Picker x:Name="Deptpicker"  TextColor="#000000"   BackgroundColor="White" Title="Choose Department" HorizontalOptions="FillAndExpand"  SelectedIndexChanged="Deptonselecteditem"  />
+        <Picker x:Name="Deptpicker"  TextColor="#000000"   BackgroundColor="White" Title="Choose Department" HorizontalOptions="Center"  SelectedIndexChanged="Deptonselecteditem"  />
       </StackLayout>
     </StackLayout>
-    <StackLayout HorizontalOptions="FillAndExpand" >
+    
+    <StackLayout HorizontalOptions="FillAndExpand"  Padding="5" Spacing="5" >
       <ListView x:Name="mylistvi"
              HasUnevenRows="True" >
         <ListView.ItemTemplate>
@@ -101,15 +108,21 @@
 
               <StackLayout Orientation="Horizontal" BackgroundColor="White">
                 <Label Text="{Binding name}"  WidthRequest="100" TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
-                <Image Source="{Binding Icon}" HeightRequest="50" WidthRequest="50"  HorizontalOptions="Start">
+                <Image Source="{Binding Icon}" HeightRequest="35" WidthRequest="50"  HorizontalOptions="Start">
                 </Image>
                 <Label Text="{Binding category}"  WidthRequest="100"  TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center" HorizontalOptions="FillAndExpand"  FontSize="16" ></Label>
-                <Label Text="{Binding Dept}"  WidthRequest="100"  TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="End" FontSize="16" ></Label>
+                <Label Text="{Binding Dept}"  WidthRequest="100"  TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="FillAndExpand" FontSize="16" ></Label>
               </StackLayout>
             </ViewCell>
           </DataTemplate>
         </ListView.ItemTemplate>
       </ListView>
     </StackLayout>
+          </StackLayout>
+        </ContentView>
+      </ContentView>
+    </ContentView>
+    
   </StackLayout>
+  
 </ContentPage>

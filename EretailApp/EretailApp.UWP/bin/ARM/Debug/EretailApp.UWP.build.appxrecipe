@@ -409,6 +409,9 @@
     <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Assets\vivekanada.png">
       <PackagePath>Assets\vivekanada.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\back.png">
+      <PackagePath>back.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\brand.png">
       <PackagePath>brand.png</PackagePath>
     </AppxPackagedFile>
@@ -602,6 +605,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\arrow.png">
       <PackagePath>EretailApp\Images\arrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\back.png">
+      <PackagePath>EretailApp\Images\back.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\Images\brand.png">
       <PackagePath>EretailApp\Images\brand.png</PackagePath>

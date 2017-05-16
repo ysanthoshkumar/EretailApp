@@ -24,8 +24,8 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\asse
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.Resources.ResourceManager.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.Diagnostics.Tools.dll
-E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.Collections.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.Linq.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.ComponentModel.dll
