@@ -1,7 +1,9 @@
 ﻿
 using Android.App;
 using Android.Content.PM;
+using Android.Content.Res;
 using Android.OS;
+using Xamarin.Forms;
 
 namespace EretailApp.Droid
 {
@@ -19,6 +21,10 @@ namespace EretailApp.Droid
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
         }
+
+
+      
+
     }
 }
 
