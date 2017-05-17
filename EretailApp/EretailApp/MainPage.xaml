@@ -38,7 +38,7 @@
                   </Image>
 
 
-                  <Label x:Name="headertitle"   TextColor="White" FontSize="20" Grid.Row="0" Grid.Column="1"   FontFamily="Bold" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+                  <Label x:Name="headertitle"   TextColor="White" FontSize="20" Grid.Row="0" Grid.Column="1"   FontFamily="Bold" HorizontalOptions="End" VerticalOptions="Center"></Label>
                   </Grid>
               </StackLayout>
 
@@ -48,15 +48,14 @@
              data that you want to have in your menu drawer
         -->
                     <StackLayout Orientation="Horizontal"
-                     HeightRequest="100"  HorizontalOptions="Center" >
+                       HorizontalOptions="Center" >
                  
                       <StackLayout  HorizontalOptions="Center"  VerticalOptions="Center">
                     <Image
                         Source="logo.png"
                         HeightRequest="80"
                         WidthRequest="80"
-                       
-                        VerticalOptions="Center"
+                       VerticalOptions="Center"
                       HorizontalOptions="Center"/>
 
                       </StackLayout>

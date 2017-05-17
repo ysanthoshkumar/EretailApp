@@ -18,6 +18,9 @@ namespace EretailApp {
         private global::Xamarin.Forms.ResourceDictionary AppDictionary;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.StackLayout stacklayoutor;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Picker CategoryPicker;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -30,6 +33,7 @@ namespace EretailApp {
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ProductConfig));
             AppDictionary = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ResourceDictionary>(this, "AppDictionary");
+            stacklayoutor = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "stacklayoutor");
             CategoryPicker = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "CategoryPicker");
             DepartmentPicker = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "DepartmentPicker");
             BrandPicker = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "BrandPicker");

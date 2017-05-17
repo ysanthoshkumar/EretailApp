@@ -39,7 +39,7 @@
   </ContentPage.Resources>
   
   <StackLayout Padding="0" Spacing="0" Orientation="Vertical"  Margin="10">
-    <StackLayout Padding="10,0,10,10" Spacing="10,0,10,10">
+    <StackLayout Padding="5" Spacing="5">
       <Grid BackgroundColor="#FE7C08" Padding="5">
         <Grid.ColumnDefinitions >
           <ColumnDefinition Width="*" />
@@ -72,7 +72,7 @@
     </StackLayout>
 
    
-  <StackLayout Orientation="Vertical" Padding="10,0,10,10" Spacing="10,0,10,10">
+  <StackLayout Orientation="Vertical" Padding="5" Spacing="5">
 
     <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
       <ContentView Style="{StaticResource BorderStyle}" >
@@ -92,7 +92,14 @@
 
               <local:BoxBorderEntry  Placeholder="Add2"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
-              <local:BoxBorderEntry  Placeholder="Add3"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+              <local:BoxBorderEntry  Placeholder="City"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+            </StackLayout>
+              <StackLayout Orientation="Horizontal" Padding="5" >
+              <local:BoxBorderEntry  Placeholder="State"  WidthRequest="60"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+              <local:BoxBorderEntry  Placeholder="Zip"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+              <local:BoxBorderEntry  Placeholder="Country"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
             </StackLayout>
             
             <StackLayout Orientation="Horizontal" Padding="5" >

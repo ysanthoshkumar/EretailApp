@@ -84,18 +84,18 @@
 
       <StackLayout HorizontalOptions="FillAndExpand" >
 
-        <SearchBar x:Name="searchvalue" Placeholder="Search here"   WidthRequest="150" HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray" SearchButtonPressed="btnclick"></SearchBar>
+        <SearchBar x:Name="searchvalue" Placeholder="Search here"   WidthRequest="100" HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray" SearchButtonPressed="btnclick"></SearchBar>
 
       </StackLayout>
 
 
       <StackLayout HorizontalOptions="FillAndExpand" >
-        <Picker x:Name="Mainpicker"  TextColor="#000000"  Title="Choose category"
+        <Picker x:Name="Mainpicker"  TextColor="#000000"  Title=" category"
                 HorizontalOptions="FillAndExpand"   BackgroundColor="White"  SelectedIndexChanged="onselecteditem"  />
       </StackLayout>
 
       <StackLayout HorizontalOptions="FillAndExpand" >
-        <Picker x:Name="Deptpicker"  TextColor="#000000"   BackgroundColor="White" Title="Choose Department" HorizontalOptions="Center"  SelectedIndexChanged="Deptonselecteditem"  />
+        <Picker x:Name="Deptpicker"  TextColor="#000000"   BackgroundColor="White" Title="Department" HorizontalOptions="Center"  SelectedIndexChanged="Deptonselecteditem"  />
       </StackLayout>
     </StackLayout>
     

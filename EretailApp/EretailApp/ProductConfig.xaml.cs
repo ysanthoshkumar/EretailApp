@@ -13,6 +13,8 @@ namespace EretailApp
         public ProductConfig()
         {
             InitializeComponent();
+
+
         }
 
         public void back(Object o, EventArgs e)

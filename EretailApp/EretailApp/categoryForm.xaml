@@ -61,14 +61,14 @@
     </StackLayout>
 
 
-  
-    
-    <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
+
+    <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+      <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
       <ContentView Style="{StaticResource BorderStyle}" >
         <ContentView Style="{StaticResource InternalViewStyle}">
           
           <StackLayout Orientation="Vertical">
-       <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="10,10,10,10" Spacing="10,10,10,10">
+       <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" Spacing="5">
 
       <SearchBar x:Name="searchcategory" Placeholder="Search here"    HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray" SearchButtonPressed="SearchCategoryclick"></SearchBar>
 
@@ -76,9 +76,9 @@
     </StackLayout>
  
 
-     <StackLayout HorizontalOptions="FillAndExpand" Padding="10,10,10,10" Spacing="10,10,10,10"  HeightRequest="180">
+     <StackLayout HorizontalOptions="FillAndExpand" Padding="5" Spacing="5"  >
       <ListView x:Name="categoryList"
-             HasUnevenRows="True" >
+            RowHeight="35">
         <ListView.ItemTemplate>
           <DataTemplate>
             <ViewCell>
@@ -96,14 +96,15 @@
         </ContentView>
       </ContentView>
     </ContentView>
-    
- 
+    </StackLayout>
+
+    <StackLayout Orientation="Vertical" HorizontalOptions="End">
      <ContentView  HorizontalOptions="FillAndExpand" x:Name="CreateCategory" IsVisible="False">
       <ContentView Style="{StaticResource BorderStyle}" >
         <ContentView Style="{StaticResource InternalViewStyle}">
-          <ScrollView>
+        
           <StackLayout Orientation="Vertical" >
-          <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="10,10,10,10" Spacing="10,10,10,10" >
+          <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" Spacing="5" >
             <local:BoxBorderEntry  Placeholder="Enter Category"    HorizontalOptions="FillAndExpand"   TextColor="#787878" PlaceholderColor="#969696"/>
           </StackLayout>
        <StackLayout>
@@ -121,10 +122,10 @@
       </Grid>
      </StackLayout>
       </StackLayout>
-          </ScrollView>
+       
         </ContentView>
       </ContentView>
     </ContentView>
-  
+    </StackLayout>
   </StackLayout>
 </ContentPage>

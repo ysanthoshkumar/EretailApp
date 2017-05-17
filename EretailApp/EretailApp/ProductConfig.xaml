@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
               xmlns:local="clr-namespace:EretailApp"
              x:Class="EretailApp.ProductConfig">
+  
+  
   <ContentPage.Resources>
 
     <ResourceDictionary x:Name="AppDictionary">
@@ -37,9 +39,10 @@
 
     </ResourceDictionary>
   </ContentPage.Resources>
-
+ 
+    
   <StackLayout Padding="0" Spacing="0" Orientation="Vertical"  Margin="10">
-    <StackLayout Padding="10,0,10,10" Spacing="10,0,10,10">
+<StackLayout Padding="10,0,10,10" Spacing="10,0,10,10">
       <Grid BackgroundColor="#FE7C08" Padding="5">
         <Grid.ColumnDefinitions >
           <ColumnDefinition Width="*" />
@@ -74,7 +77,7 @@
 
 
     <ScrollView>
-      <StackLayout  Orientation="Vertical"  Padding="10" Spacing="10" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+      <StackLayout  Orientation="Vertical"  Padding="5" Spacing="5" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
 
 
 
@@ -94,28 +97,29 @@
         <Button x:Name="Save" Text="Save" Style="{StaticResource ButtonStyle}"  HorizontalOptions="End"  ></Button>
       </StackLayout>
       -->
-        <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
+        <ContentView Padding="0" HorizontalOptions="FillAndExpand"  >
           <ContentView Style="{StaticResource BorderStyle}" >
             <ContentView Style="{StaticResource InternalViewStyle}">
               <StackLayout Orientation="Horizontal">
                 
-                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Padding="5" Margin="0,0,0,5">
-                  <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                  <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5">
 
                     <local:BoxBorderEntry  Placeholder="Enter Product"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
                     <local:BoxBorderEntry  Placeholder="Enter Short Desc"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
                   </StackLayout>
 
-                  <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                  <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5">
 
                     <local:BoxBorderEntry  Placeholder="Enter Full Description"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
                    </StackLayout>
                 </StackLayout>
-
-                  <Image Source="Uploadimg.png" Margin="5,0,5,5"  Aspect="Fill"  HeightRequest="200" WidthRequest="200" HorizontalOptions="End"   />
+                  <StackLayout HorizontalOptions="End"  > 
+                  <Image Source="Uploadimg.png"  Aspect="AspectFit"  HeightRequest="150" WidthRequest="150" HorizontalOptions="FillAndExpand"   />
                </StackLayout>
+                </StackLayout>
             </ContentView>
           </ContentView>
         </ContentView>
@@ -157,7 +161,7 @@
           <ContentView Style="{StaticResource BorderStyle}" >
             <ContentView Style="{StaticResource InternalViewStyle}">
 
-              <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  >
+              <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" >
 
                 <local:BoxBorderEntry  Placeholder="Enter CP"  WidthRequest="60"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
@@ -176,7 +180,7 @@
           <ContentView Style="{StaticResource BorderStyle}" >
             <ContentView Style="{StaticResource InternalViewStyle}">
 
-              <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  >
+              <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" >
 
                 <local:BoxBorderEntry  Placeholder="Enter EAN/UPC"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
@@ -216,4 +220,5 @@
 
     </ScrollView>
   </StackLayout>
+
 </ContentPage>

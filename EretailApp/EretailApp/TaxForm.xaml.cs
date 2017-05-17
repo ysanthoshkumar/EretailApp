@@ -46,7 +46,51 @@ namespace EretailApp
                 Icon="ic_user.png",
 
            }
+                 
+                     ,
+                 new ProductModel
+           {
+               name=" D",
+                Dept="40%",
+                category="Kids",
+                Icon="ic_user.png",
+
+           }
+                 
+
+                     ,
+                 new ProductModel
+           {
+               name=" D",
+                Dept="40%",
+                category="Kids",
+                Icon="ic_user.png",
+
+           }
+                 
+
+                     ,
+                 new ProductModel
+           {
+               name=" D",
+                Dept="40%",
+                category="Kids",
+                Icon="ic_user.png",
+
+           }
+                 
+
+                     ,
+                 new ProductModel
+           {
+               name=" D",
+                Dept="40%",
+                category="Kids",
+                Icon="ic_user.png",
+
+           }
                  ,
+
 
                        new ProductModel
            {
@@ -56,8 +100,8 @@ namespace EretailApp
                 Icon="ic_user.png",
 
            }
-
 ,
+
 
         };
         public TaxForm()
