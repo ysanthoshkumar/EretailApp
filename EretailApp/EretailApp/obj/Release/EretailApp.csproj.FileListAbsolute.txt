@@ -41,3 +41,5 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.Transac
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.StackingForm.xaml.g.cs
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Release\EretailApp.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Release\EretailApp.dll.mdb

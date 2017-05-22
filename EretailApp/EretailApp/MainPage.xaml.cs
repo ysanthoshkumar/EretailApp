@@ -156,6 +156,7 @@ namespace EretailApp
                 //Navigation.PushModalAsync(new ProductDetails());
                 Detail = new EmployeeForm();
                 headertitle.Text = item.Title;
+               
 
 
             }
@@ -234,10 +235,9 @@ namespace EretailApp
             }
 
 
-
-
-            if (item.Title.Equals("Stacking"))
+           if (item.Title.Equals("Stacking"))
             {
+
                 Navigation.PushModalAsync(new StackingForm());
 
                 //Detail = new SupplierFormxaml();

@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ECPLHYDD01</Machine>
+    <WindowsUser>ecpldev</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|ARM</SolutionConfiguration>
+    <PackageArchitecture>arm</PackageArchitecture>
+    <PackageIdentityName>c5d78338-c4d9-4d5f-80e9-cc60827cf183</PackageIdentityName>
+    <PackageIdentityPublisher>CN=ecpl</PackageIdentityPublisher>
+    <IntermediateOutputPath>E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\ARM\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\AdditionIcon.png">
+      <PackagePath>AdditionIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\arrow.png">
+      <PackagePath>arrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\arrow.png">
+      <PackagePath>Assets\arrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\brand.png">
+      <PackagePath>Assets\brand.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\categeory.png">
+      <PackagePath>Assets\categeory.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\customer.png">
+      <PackagePath>Assets\customer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\departmnt.png">
+      <PackagePath>Assets\departmnt.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\home.png">
+      <PackagePath>Assets\home.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\leftarr.png">
+      <PackagePath>Assets\leftarr.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\LockScreenLogo.scale-100.png">
+      <PackagePath>Assets\LockScreenLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\LockScreenLogo.scale-125.png">
+      <PackagePath>Assets\LockScreenLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\LockScreenLogo.scale-150.png">
+      <PackagePath>Assets\LockScreenLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\LockScreenLogo.scale-400.png">
+      <PackagePath>Assets\LockScreenLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\logout.png">
+      <PackagePath>Assets\logout.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\prod.png">
+      <PackagePath>Assets\prod.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\recive.png">
+      <PackagePath>Assets\recive.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\sa.jpg">
+      <PackagePath>Assets\sa.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\sal.png">
+      <PackagePath>Assets\sal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\saleee.png">
+      <PackagePath>Assets\saleee.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\sales.png">
+      <PackagePath>Assets\sales.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\setting.png">
+      <PackagePath>Assets\setting.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\sss.png">
+      <PackagePath>Assets\sss.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\supply.png">
+      <PackagePath>Assets\supply.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\swamy.png">
+      <PackagePath>Assets\swamy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\tax.png">
+      <PackagePath>Assets\tax.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\vivekanada.png">
+      <PackagePath>Assets\vivekanada.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\back.png">
+      <PackagePath>back.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\brand.png">
+      <PackagePath>brand.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\CamaraIcon.png">
+      <PackagePath>CamaraIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\categeory.png">
+      <PackagePath>categeory.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\customer.png">
+      <PackagePath>customer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\DeleteIcon.png">
+      <PackagePath>DeleteIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\departmnt.png">
+      <PackagePath>departmnt.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EditIcon.png">
+      <PackagePath>EditIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp.UWP.dll">
+      <PackagePath>EretailApp.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp.UWP.exe">
+      <PackagePath>EretailApp.UWP.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp.UWP.pdb">
+      <PackagePath>EretailApp.UWP.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\arrow.png">
+      <PackagePath>EretailApp\arrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\customer.png">
+      <PackagePath>EretailApp\customer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\home.png">
+      <PackagePath>EretailApp\home.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\Images\arrow.png">
+      <PackagePath>EretailApp\Images\arrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\Images\back.png">
+      <PackagePath>EretailApp\Images\back.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\Images\brand.png">
+      <PackagePath>EretailApp\Images\brand.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\Images\categeory.png">
+      <PackagePath>EretailApp\Images\categeory.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\Images\customer.png">
+      <PackagePath>EretailApp\Images\customer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\Images\departmnt.png">
+      <PackagePath>EretailApp\Images\departmnt.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\Images\home.png">
+      <PackagePath>EretailApp\Images\home.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\Images\leftarr.png">
+      <PackagePath>EretailApp\Images\leftarr.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\Images\logo.png">
+      <PackagePath>EretailApp\Images\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\Images\logout.png">
+      <PackagePath>EretailApp\Images\logout.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\Images\prod.png">
+      <PackagePath>EretailApp\Images\prod.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\Images\recive.png">
+      <PackagePath>EretailApp\Images\recive.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\Images\sa.jpg">
+      <PackagePath>EretailApp\Images\sa.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\Images\sal.png">
+      <PackagePath>EretailApp\Images\sal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\Images\saleee.png">
+      <PackagePath>EretailApp\Images\saleee.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\Images\setting.png">
+      <PackagePath>EretailApp\Images\setting.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\Images\sss.png">
+      <PackagePath>EretailApp\Images\sss.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\Images\supply.png">
+      <PackagePath>EretailApp\Images\supply.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\Images\tax.png">
+      <PackagePath>EretailApp\Images\tax.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\leftarr.png">
+      <PackagePath>EretailApp\leftarr.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\logo.png">
+      <PackagePath>EretailApp\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\logout.png">
+      <PackagePath>EretailApp\logout.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\prod.png">
+      <PackagePath>EretailApp\prod.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\sal.png">
+      <PackagePath>EretailApp\sal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\saleee.png">
+      <PackagePath>EretailApp\saleee.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\sales.png">
+      <PackagePath>EretailApp\sales.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\setting.png">
+      <PackagePath>EretailApp\setting.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\sss.png">
+      <PackagePath>EretailApp\sss.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\swamy.png">
+      <PackagePath>EretailApp\swamy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\EretailApp\vivekanada.png">
+      <PackagePath>EretailApp\vivekanada.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\home.png">
+      <PackagePath>home.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\ic_user.png">
+      <PackagePath>ic_user.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\leftarr.png">
+      <PackagePath>leftarr.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\logo.png">
+      <PackagePath>logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\logout.png">
+      <PackagePath>logout.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\prod.png">
+      <PackagePath>prod.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\recive.png">
+      <PackagePath>recive.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\sal.png">
+      <PackagePath>sal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\saleee.png">
+      <PackagePath>saleee.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\sales.png">
+      <PackagePath>sales.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\setting.png">
+      <PackagePath>setting.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\sss.png">
+      <PackagePath>sss.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\supply.png">
+      <PackagePath>supply.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\swamy.png">
+      <PackagePath>swamy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\tax.png">
+      <PackagePath>tax.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\Uploadimg.png">
+      <PackagePath>Uploadimg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\vivekanada.png">
+      <PackagePath>vivekanada.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\_Resources\0.rsrc">
+      <PackagePath>_Resources\0.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\_Resources\1.rsrc">
+      <PackagePath>_Resources\1.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\_Resources\10.rsrc">
+      <PackagePath>_Resources\10.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\_Resources\11.rsrc">
+      <PackagePath>_Resources\11.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\_Resources\12.rsrc">
+      <PackagePath>_Resources\12.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\_Resources\13.rsrc">
+      <PackagePath>_Resources\13.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\_Resources\14.rsrc">
+      <PackagePath>_Resources\14.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\_Resources\15.rsrc">
+      <PackagePath>_Resources\15.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\_Resources\16.rsrc">
+      <PackagePath>_Resources\16.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\_Resources\17.rsrc">
+      <PackagePath>_Resources\17.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\_Resources\18.rsrc">
+      <PackagePath>_Resources\18.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\_Resources\2.rsrc">
+      <PackagePath>_Resources\2.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\_Resources\3.rsrc">
+      <PackagePath>_Resources\3.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\_Resources\4.rsrc">
+      <PackagePath>_Resources\4.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\_Resources\5.rsrc">
+      <PackagePath>_Resources\5.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\_Resources\6.rsrc">
+      <PackagePath>_Resources\6.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\_Resources\7.rsrc">
+      <PackagePath>_Resources\7.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\_Resources\8.rsrc">
+      <PackagePath>_Resources\8.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\_Resources\9.rsrc">
+      <PackagePath>_Resources\9.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\ARM\Release\ilc\_Resources\index.txt">
+      <PackagePath>_Resources\index.txt</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24201.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\arm\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24201.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\x64\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24201.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\x86\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\ARM\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\x64\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\x86\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
