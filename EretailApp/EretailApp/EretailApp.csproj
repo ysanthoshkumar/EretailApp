@@ -38,6 +38,12 @@
     <Compile Include="AddCategoryForm.xaml.cs">
       <DependentUpon>AddCategoryForm.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AddCustomer.xaml.cs">
+      <DependentUpon>AddCustomer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmpForm.xaml.cs">
+      <DependentUpon>AddEmpForm.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AddSupplierForm.xaml.cs">
       <DependentUpon>AddSupplierForm.xaml</DependentUpon>
     </Compile>
@@ -51,8 +57,14 @@
     <Compile Include="categoryForm.xaml.cs">
       <DependentUpon>categoryForm.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CustomerForm.xaml.cs">
+      <DependentUpon>CustomerForm.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DeptForm.xaml.cs">
       <DependentUpon>DeptForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeForm.xaml.cs">
+      <DependentUpon>EmployeeForm.xaml</DependentUpon>
     </Compile>
     <Compile Include="LoginForm.xaml.cs">
       <DependentUpon>LoginForm.xaml</DependentUpon>
@@ -76,11 +88,17 @@
     </Compile>
     <Compile Include="ProductModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StackingForm.xaml.cs">
+      <DependentUpon>StackingForm.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SupplierFormxaml.xaml.cs">
       <DependentUpon>SupplierFormxaml.xaml</DependentUpon>
     </Compile>
     <Compile Include="TaxForm.xaml.cs">
       <DependentUpon>TaxForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionsForm.xaml.cs">
+      <DependentUpon>TransactionsForm.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Customer.xaml.cs">
       <DependentUpon>Customer.xaml</DependentUpon>
@@ -285,6 +303,42 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AddSupplierForm.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CustomerForm.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EmployeeForm.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddCustomer.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddEmpForm.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TransactionsForm.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="StackingForm.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

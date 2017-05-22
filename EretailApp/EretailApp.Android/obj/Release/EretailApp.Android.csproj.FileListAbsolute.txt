@@ -17,7 +17,6 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\Xamarin.Fo
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\Xamarin.Forms.Platform.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\Xamarin.Forms.Xaml.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\EretailApp.pdb
-E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\EretailApp.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\FormsViewGroup.pdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\FormsViewGroup.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\Xamarin.Forms.Core.pdb
@@ -67,7 +66,12 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\res\drawab
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\res\drawable\back.png
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\R.cs.flag
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\uploadflags.txt
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\res\drawable\additionicon.png
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\res\drawable\deleteicon.png
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\res\drawable\editicon.png
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\res\drawable\camaraicon.png
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\EretailApp.Android.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\EretailApp.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\Java.Interop.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\Mono.Android.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\mscorlib.dll.mdb

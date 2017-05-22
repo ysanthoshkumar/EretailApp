@@ -117,7 +117,7 @@
                    </StackLayout>
                 </StackLayout>
                   <StackLayout HorizontalOptions="End"  > 
-                  <Image Source="Uploadimg.png"  Aspect="AspectFit"  HeightRequest="150" WidthRequest="150" HorizontalOptions="FillAndExpand"   />
+                  <Image Source="CamaraIcon.png"  Aspect="AspectFit"  HeightRequest="150" WidthRequest="150" HorizontalOptions="FillAndExpand"   />
                </StackLayout>
                 </StackLayout>
             </ContentView>

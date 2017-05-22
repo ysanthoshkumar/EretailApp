@@ -349,6 +349,9 @@
     <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll">
       <PackagePath>EretailApp.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\AdditionIcon.png">
+      <PackagePath>AdditionIcon.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\arrow.png">
       <PackagePath>arrow.png</PackagePath>
     </AppxPackagedFile>
@@ -415,14 +418,23 @@
     <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\brand.png">
       <PackagePath>brand.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\CamaraIcon.png">
+      <PackagePath>CamaraIcon.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\categeory.png">
       <PackagePath>categeory.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\customer.png">
       <PackagePath>customer.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\DeleteIcon.png">
+      <PackagePath>DeleteIcon.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\departmnt.png">
       <PackagePath>departmnt.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\EditIcon.png">
+      <PackagePath>EditIcon.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\home.png">
       <PackagePath>home.png</PackagePath>

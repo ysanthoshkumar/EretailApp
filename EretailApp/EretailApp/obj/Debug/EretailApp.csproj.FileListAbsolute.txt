@@ -114,6 +114,16 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.SupplierF
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.AddSupplierForm.xaml.g.cs
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.pdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.CustomerForm.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.EmployeeForm.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.AddCustomer.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.AddEmpForm.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.TransactionsForm.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.StackingForm.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb

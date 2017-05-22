@@ -39,7 +39,7 @@ namespace EretailApp
             // icon on the left side, and page that you want to open after selection
             var page1 = new MasterPageItem() { Title = "Home", Icon = "home.png", TargetType = typeof(Home) };
             var page2 = new MasterPageItem() { Title = "Sales", Icon = "sal.png", TargetType = typeof(Sales) };
-            var page3 = new MasterPageItem() { Title = "Products", Icon = "prod.png", TargetType = typeof(Products) };
+            var page3 = new MasterPageItem() { Title = "Masters", Icon = "prod.png", TargetType = typeof(Products) };
             var page4 = new MasterPageItem() { Title = "Customer", Icon = "customer.png", TargetType = typeof(Customer) };
             var page5 = new MasterPageItem() { Title = "Reports", Icon = "sss.png", TargetType = typeof(Reports) };
             var page6 = new MasterPageItem() { Title = "Setup", Icon = "setting.png", TargetType = typeof(Setup) };
@@ -85,7 +85,7 @@ namespace EretailApp
             var item = (MasterPageItem)e.SelectedItem;
             Type page = item.TargetType;
 
-            if (item.Title.Equals("Products"))
+            if (item.Title.Equals("Masters"))
             {
                 item = (MasterPageItem)e.SelectedItem;
                 navigationDrawerList.IsVisible = false;
@@ -94,6 +94,8 @@ namespace EretailApp
                 // Creating our pages for menu navigation
                 // Here you can define title for item, 
                 // icon on the left side, and page that you want to open after selection
+
+               
                 var page1 = new MasterPageItem() {Icon1="prod.png", Title = "Product", TargetType=typeof(ProductDetails)};
                 var page2 = new MasterPageItem() { Icon1="categeory.png", Title = "Categeory", TargetType = typeof(categoryForm) };
                 var page3 = new MasterPageItem() { Icon1 = "departmnt.png", Title = "Department" };
@@ -101,7 +103,8 @@ namespace EretailApp
                 var page5 = new MasterPageItem() { Icon1 = "supply.png", Title = "Supplier"};
                 var page6 = new MasterPageItem() { Icon1 = "tax.png", Title = "Tax" };
                 var page7 = new MasterPageItem() {Icon1 = "recive.png", Title = "Receving/Returns" };
-
+                var page8 = new MasterPageItem() { Icon1 = "recive.png", Title = "Stacking" };
+                var page9 = new MasterPageItem() { Icon1 = "customer.png", Title = "Employee" };
                 //var page6 = new MasterPageItem() { Title = "Login", Icon = "bui.png", TargetType = typeof(Page3) };
                 //var page7 = new MasterPageItem() { Title = "Register", Icon = "sim.png", TargetType = typeof(Page1) };
                 //var page8 = new MasterPageItem() { Title = "MainScreen", Icon = "fire.png", TargetType = typeof(Page2) };
@@ -115,18 +118,21 @@ namespace EretailApp
                 menuList1.Add(page5);
                 menuList1.Add(page6);
                 menuList1.Add(page7);
-                //menuList.Add(page9);
+                menuList1.Add(page8);
+                menuList1.Add(page9);
                 navigationDrawerList1.IsVisible = true;
                 // Setting our list to be ItemSource for ListView in MainPage.xaml
                 navigationDrawerList1.ItemsSource = menuList1;
 
                   Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Home)));
+}
 
-      
 
+         else   if (item.Title.Equals("Customer"))
+            {
+                Detail = new CustomerForm();
 
-    }
-
+            }
 
             else
             {
@@ -145,6 +151,14 @@ namespace EretailApp
             var item = (MasterPageItem)ee.SelectedItem;
             Type page = item.TargetType;
 
+            if (item.Title.Equals("Employee"))
+            {
+                //Navigation.PushModalAsync(new ProductDetails());
+                Detail = new EmployeeForm();
+                headertitle.Text = item.Title;
+
+
+            }
 
             if (item.Title.Equals("Product"))
             {
@@ -204,6 +218,34 @@ namespace EretailApp
 
 
             }
+
+
+
+            
+
+            if (item.Title.Equals("Receving/Returns"))
+            {
+                Navigation.PushModalAsync(new TransactionsForm());
+
+                //Detail = new SupplierFormxaml();
+                //headertitle.Text = item.Title;
+
+
+            }
+
+
+
+
+            if (item.Title.Equals("Stacking"))
+            {
+                Navigation.PushModalAsync(new StackingForm());
+
+                //Detail = new SupplierFormxaml();
+                //headertitle.Text = item.Title;
+
+
+            }
+
 
         }
 

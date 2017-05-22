@@ -62,7 +62,7 @@
 
 
 
-    <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+   
       <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
       <ContentView Style="{StaticResource BorderStyle}" >
         <ContentView Style="{StaticResource InternalViewStyle}">
@@ -96,9 +96,8 @@
         </ContentView>
       </ContentView>
     </ContentView>
-    </StackLayout>
+  
 
-    <StackLayout Orientation="Vertical" HorizontalOptions="End">
      <ContentView  HorizontalOptions="FillAndExpand" x:Name="CreateCategory" IsVisible="False">
       <ContentView Style="{StaticResource BorderStyle}" >
         <ContentView Style="{StaticResource InternalViewStyle}">
@@ -127,5 +126,5 @@
       </ContentView>
     </ContentView>
     </StackLayout>
-  </StackLayout>
+
 </ContentPage>

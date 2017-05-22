@@ -71,7 +71,7 @@
       </Grid>
     </StackLayout>
 
-   
+    <ScrollView>
   <StackLayout Orientation="Vertical" Padding="5" Spacing="5">
 
     <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
@@ -88,9 +88,9 @@
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" Padding="5" >
-              <local:BoxBorderEntry  Placeholder="Add1"  WidthRequest="60"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+              <local:BoxBorderEntry  Placeholder="Address1"  WidthRequest="60"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
-              <local:BoxBorderEntry  Placeholder="Add2"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+              <local:BoxBorderEntry  Placeholder="Address2"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
               <local:BoxBorderEntry  Placeholder="City"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
             </StackLayout>
@@ -115,5 +115,6 @@
       </ContentView>
     </ContentView>
   </StackLayout>
+    </ScrollView>
   </StackLayout>
 </ContentPage>

@@ -287,5 +287,9 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\asse
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\deleteicon.png
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\editicon.png
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\additionicon.png
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\camaraicon.png
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\EretailApp.Android.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Debug\EretailApp.Android.dll.mdb

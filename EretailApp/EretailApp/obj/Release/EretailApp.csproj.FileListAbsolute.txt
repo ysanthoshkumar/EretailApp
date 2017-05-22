@@ -33,7 +33,11 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.AddSupp
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.pdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.csprojResolveAssemblyReference.cache
-E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.dll.mdb
-E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Release\EretailApp.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.CustomerForm.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.EmployeeForm.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.AddCustomer.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.AddEmpForm.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.TransactionsForm.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.StackingForm.xaml.g.cs
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Release\EretailApp.dll.mdb

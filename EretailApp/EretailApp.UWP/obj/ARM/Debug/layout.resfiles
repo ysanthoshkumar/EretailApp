@@ -1,4 +1,5 @@
 WinMetadata\Windows.winmd
+AdditionIcon.png
 arrow.png
 Assets\arrow.png
 Assets\brand.png
@@ -54,9 +55,12 @@ Assets\Wide310x150Logo.scale-400.png
 back.png
 EretailApp.UWP.xr.xml
 brand.png
+CamaraIcon.png
 categeory.png
 customer.png
+DeleteIcon.png
 departmnt.png
+EditIcon.png
 home.png
 ic_user.png
 leftarr.png

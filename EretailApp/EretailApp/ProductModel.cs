@@ -21,7 +21,16 @@ namespace EretailApp
 
     public string category { get; set; }
 
-    public string Icon { get; set; }
+        public string Sku { get; set; }
+        public string EANCode { get; set; }
+        public string Qty { get; set; }
+        public string FreeQty { get; set; }
+        public string Rate { get; set; }
+        public string Tax { get; set; }
+        public string Amount { get; set; }
+        public string Variant { get; set; }
+        public string Remarks { get; set; }
+        public string Icon { get; set; }
 
 }
 }

@@ -109,6 +109,7 @@
     <None Include="EretailApp.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdditionIcon.png" />
     <Content Include="arrow.png" />
     <Content Include="Assets\arrow.png" />
     <Content Include="Assets\brand.png" />
@@ -132,9 +133,12 @@
     <Content Include="Assets\vivekanada.png" />
     <Content Include="back.png" />
     <Content Include="brand.png" />
+    <Content Include="CamaraIcon.png" />
     <Content Include="categeory.png" />
     <Content Include="customer.png" />
+    <Content Include="DeleteIcon.png" />
     <Content Include="departmnt.png" />
+    <Content Include="EditIcon.png" />
     <Content Include="home.png" />
     <Content Include="ic_user.png" />
     <Content Include="leftarr.png" />
