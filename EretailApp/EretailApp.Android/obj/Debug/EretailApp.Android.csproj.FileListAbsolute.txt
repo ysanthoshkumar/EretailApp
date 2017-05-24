@@ -291,5 +291,3 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\editicon.png
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\additionicon.png
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\res\drawable\camaraicon.png
-E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\EretailApp.Android.dll.mdb
-E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Debug\EretailApp.Android.dll.mdb

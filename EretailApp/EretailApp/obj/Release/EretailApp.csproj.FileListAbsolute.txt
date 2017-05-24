@@ -39,7 +39,11 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.AddCust
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.AddEmpForm.xaml.g.cs
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.TransactionsForm.xaml.g.cs
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.StackingForm.xaml.g.cs
-E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.dll.mdb
-E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Release\EretailApp.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.Views.Language.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.Views.BillingMode.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.Views.Business.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.Views.PaymentMode.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.Views.BillPrinting.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.Views.HardwareSetting.xaml.g.cs
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Release\EretailApp.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Release\EretailApp.dll.mdb

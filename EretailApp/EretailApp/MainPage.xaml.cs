@@ -72,11 +72,14 @@ namespace EretailApp
 
         }
 
+
+
         protected override bool OnBackButtonPressed()
         {
             // Do your magic here
             return true;
         }
+
         // Event for Menu Item selection, here we are going to handle navigation based
         // on user selection in menu ListView
         private void OnMenuItemSelected(object sender, SelectedItemChangedEventArgs e)
@@ -103,7 +106,7 @@ namespace EretailApp
                 var page5 = new MasterPageItem() { Icon1 = "supply.png", Title = "Supplier"};
                 var page6 = new MasterPageItem() { Icon1 = "tax.png", Title = "Tax" };
                 var page7 = new MasterPageItem() {Icon1 = "recive.png", Title = "Receving/Returns" };
-                var page8 = new MasterPageItem() { Icon1 = "recive.png", Title = "Stacking" };
+                var page8 = new MasterPageItem() { Icon1 = "recive.png", Title = "Stocking" };
                 var page9 = new MasterPageItem() { Icon1 = "customer.png", Title = "Employee" };
                 //var page6 = new MasterPageItem() { Title = "Login", Icon = "bui.png", TargetType = typeof(Page3) };
                 //var page7 = new MasterPageItem() { Title = "Register", Icon = "sim.png", TargetType = typeof(Page1) };
@@ -126,13 +129,59 @@ namespace EretailApp
 
                   Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Home)));
 }
+ else if (item.Title.Equals("Setup"))
+            {
+                item = (MasterPageItem)e.SelectedItem;
+                navigationDrawerList.IsVisible = false;
+                menuList1 = new List<MasterPageItem>();
+
+                // Creating our pages for menu navigation
+                // Here you can define title for item, 
+                // icon on the left side, and page that you want to open after selection
+                var page1 = new MasterPageItem() { Icon1 = "prod.png", Title = "Language" };
+               // var page2 = new MasterPageItem() { Icon1 = "brand.png", Title = "Business" };
+                var page2 = new MasterPageItem() { Icon1 = "categeory.png", Title = "Payment Mode"};
+                var page3 = new MasterPageItem() { Icon1 = "departmnt.png", Title = "Billing Mode" };
+                var page4 = new MasterPageItem() { Icon1 = "brand.png", Title = "Bill Printing" };
+                var page5 = new MasterPageItem() { Icon1 = "supply.png", Title = "Hardware Setting" };
+                var page6 = new MasterPageItem() { Icon1 = "tax.png", Title = "SMS/Notification" };
+
+                //var page6 = new MasterPageItem() { Title = "Login", Icon = "bui.png", TargetType = typeof(Page3) };
+                //var page7 = new MasterPageItem() { Title = "Register", Icon = "sim.png", TargetType = typeof(Page1) };
+                //var page8 = new MasterPageItem() { Title = "MainScreen", Icon = "fire.png", TargetType = typeof(Page2) };
+                //var page9 = new MasterPageItem() { Title = "MastersPage", Icon = "msg.png", TargetType = typeof(Page3) };
+
+                // Adding menu items to menuList
+                menuList1.Add(page1);
+                menuList1.Add(page2);
+                menuList1.Add(page3);
+                menuList1.Add(page4);
+                menuList1.Add(page5);
+                menuList1.Add(page6);
+               // menuList1.Add(page7);
+                //menuList.Add(page9);
+                navigationDrawerList1.IsVisible = true;
+                // Setting our list to be ItemSource for ListView in MainPage.xaml
+                navigationDrawerList1.ItemsSource = menuList1;
+
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Home)));
+
+            }
 
 
-         else   if (item.Title.Equals("Customer"))
+           else   if (item.Title.Equals("Customer"))
             {
                 Detail = new CustomerForm();
 
             }
+
+
+            else if (item.Title.Equals("Logout"))
+            {
+              Navigation.PushModalAsync(new LoginForm());
+
+            }
+
 
             else
             {
@@ -145,11 +194,13 @@ namespace EretailApp
         }
 
 
-        private void OnMenuItemSelectedproducts(object sender, SelectedItemChangedEventArgs ee)
+        private async void OnMenuItemSelectedproducts(object sender, SelectedItemChangedEventArgs ee)
         {
 
             var item = (MasterPageItem)ee.SelectedItem;
             Type page = item.TargetType;
+
+            // Masters options
 
             if (item.Title.Equals("Employee"))
             {
@@ -226,25 +277,109 @@ namespace EretailApp
 
             if (item.Title.Equals("Receving/Returns"))
             {
-                Navigation.PushModalAsync(new TransactionsForm());
+                await Navigation.PushModalAsync(new TransactionsForm());
 
-                //Detail = new SupplierFormxaml();
+               // Detail = new TransactionsForm();
                 //headertitle.Text = item.Title;
 
 
             }
 
 
-           if (item.Title.Equals("Stacking"))
+           if (item.Title.Equals("Stocking"))
             {
 
-                Navigation.PushModalAsync(new StackingForm());
+                await Navigation.PushModalAsync(new StackingForm());
 
-                //Detail = new SupplierFormxaml();
+               // Detail = new StackingForm();
                 //headertitle.Text = item.Title;
 
 
             }
+
+
+
+            // settings  options 
+
+
+            if (item.Title.Equals("Language"))
+            {
+
+                Detail = new Language();
+                headertitle.Text = item.Title;
+
+
+            }
+            if (item.Title.Equals("Billing Mode"))
+            {
+
+                Detail = new BillingMode();
+                headertitle.Text = item.Title;
+
+
+            }
+            if (item.Title.Equals("SMS/Notification"))
+            {
+
+                var action = await DisplayActionSheet("Choose Any One ", "Cancel", null, "Business", "Customer");
+                switch (action)
+                {
+                    case "Business":
+                        // Device.OpenUri(new Uri("https://www.google.com/gmail/about/"));
+                        Detail = new Business();
+                        headertitle.Text = item.Title;
+                        break;
+                    case "Customer":
+                        // Device.OpenUri(new Uri("https://twitter.com/login"));
+                        Detail = new CustomerForm();
+                        headertitle.Text = item.Title;
+                        break;
+
+                }
+
+
+            }
+
+
+            if (item.Title.Equals("Payment Mode"))
+            {
+
+                Detail = new PaymentMode();
+                headertitle.Text = item.Title;
+
+
+            }
+
+            if (item.Title.Equals("Bill Printing"))
+            {
+
+                Detail = new BillPrinting();
+                headertitle.Text = item.Title;
+
+
+            }
+
+            if (item.Title.Equals("Hardware Setting"))
+            {
+
+                Detail = new HardwareSetting();
+                headertitle.Text = item.Title;
+
+
+            }
+
+            //if (item.Title.Equals("Business"))
+            //{
+
+            //    Detail = new Business();
+            //    headertitle.Text = item.Title;
+
+
+            //}
+
+
+
+
 
 
         }

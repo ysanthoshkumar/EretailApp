@@ -63,7 +63,7 @@
  
 
         </Image>
-        <Label  Text="Stacking" VerticalTextAlignment="Center"    Grid.Row="0" Grid.Column="1" HorizontalOptions="Start"   HorizontalTextAlignment="Center"    FontSize="20"  FontFamily="Bold" TextColor="White"></Label>
+        <Label  Text="Stock" VerticalTextAlignment="Center"    Grid.Row="0" Grid.Column="1" HorizontalOptions="Start"   HorizontalTextAlignment="Center"    FontSize="20"  FontFamily="Bold" TextColor="White"></Label>
 
         <Button  Text="Cancel"    Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" ></Button>
         <Button  Text="Save" Style="{StaticResource ButtonStyle}"  Grid.Row="0" Grid.Column="3"   ></Button>
@@ -83,11 +83,11 @@
               <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" >
 
                 <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
-                  <Label   Text="Stacking Right Off" FontSize="18"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
+                  <Label   Text="Stock Write Off" FontSize="18"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
                   <Switch HorizontalOptions="Start" VerticalOptions="Center" />
                 </StackLayout>
                 <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
-                  <Label   Text="Stacking Adjustment" FontSize="18"  VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                  <Label   Text="Stock Adjustment" FontSize="18"  VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
                   <Switch HorizontalOptions="End" VerticalOptions="Center" />
                 </StackLayout>
               </StackLayout>
@@ -123,7 +123,7 @@
                  
                 </Image>
                 <local:BoxBorderEntry  x:Name="entryQty"   Keyboard="Numeric" Placeholder="Qty "   WidthRequest="20"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
-                <local:BoxBorderEntry  x:Name="entrVariants"   Placeholder="Variants"  WidthRequest="20"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                <local:BoxBorderEntry  x:Name="entrVariants"   Placeholder="Variance"  WidthRequest="20"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
                 <local:BoxBorderEntry  x:Name="entrRemarks"    Placeholder="Remarks "   WidthRequest="20" HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
                 <Image Aspect="AspectFit"  Source="AdditionIcon.png"   VerticalOptions="Center" HorizontalOptions="End"   >
                  <Image.GestureRecognizers>
@@ -228,7 +228,7 @@
                   </Image.GestureRecognizers>
                 </Image>
                 <local:BoxBorderEntry  x:Name="EditentryQty"  Keyboard="Numeric"  Placeholder="Qty "   WidthRequest="20"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
-               <local:BoxBorderEntry   x:Name="EditentryVariant"   Placeholder="Variant "    WidthRequest="20" HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+               <local:BoxBorderEntry   x:Name="EditentryVariant"   Placeholder="Variance "    WidthRequest="20" HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
                 <local:BoxBorderEntry   x:Name="EditentryRemarks"   Placeholder="Remarks"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
                 <Image Aspect="AspectFit"  Source="EditIcon.png"   VerticalOptions="Center" HorizontalOptions="End"   >
                   <Image.GestureRecognizers>

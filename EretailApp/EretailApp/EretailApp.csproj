@@ -66,6 +66,15 @@
     <Compile Include="EmployeeForm.xaml.cs">
       <DependentUpon>EmployeeForm.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\BillPrinting.xaml.cs">
+      <DependentUpon>BillPrinting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HardwareSetting.xaml.cs">
+      <DependentUpon>HardwareSetting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Language.xaml.cs">
+      <DependentUpon>Language.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.xaml.cs">
       <DependentUpon>LoginForm.xaml</DependentUpon>
     </Compile>
@@ -100,6 +109,12 @@
     <Compile Include="TransactionsForm.xaml.cs">
       <DependentUpon>TransactionsForm.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\BillingMode.xaml.cs">
+      <DependentUpon>BillingMode.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Business.xaml.cs">
+      <DependentUpon>Business.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Customer.xaml.cs">
       <DependentUpon>Customer.xaml</DependentUpon>
     </Compile>
@@ -108,6 +123,9 @@
     </Compile>
     <Compile Include="Views\Logout.xaml.cs">
       <DependentUpon>Logout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PaymentMode.xaml.cs">
+      <DependentUpon>PaymentMode.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Products.xaml.cs">
       <DependentUpon>Products.xaml</DependentUpon>
@@ -339,6 +357,42 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="StackingForm.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Language.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\BillingMode.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Business.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\PaymentMode.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\BillPrinting.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\HardwareSetting.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

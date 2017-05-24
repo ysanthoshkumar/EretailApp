@@ -120,11 +120,9 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.AddCustom
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.AddEmpForm.xaml.g.cs
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.TransactionsForm.xaml.g.cs
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.StackingForm.xaml.g.cs
-E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb
-E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll.mdb
-E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb
-E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll.mdb
-E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb
-E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll.mdb
-E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb
-E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Language.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.BillingMode.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Business.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.PaymentMode.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.BillPrinting.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.HardwareSetting.xaml.g.cs
