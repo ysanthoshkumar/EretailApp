@@ -85,6 +85,7 @@ namespace EretailApp
         {
             // Navigation.PushModalAsync(new AddCategoryForm());
                CreateCategory.IsVisible = true;
+            BrandTitle.Text = "Brand";
         }
 
 

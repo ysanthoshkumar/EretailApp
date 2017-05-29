@@ -40,10 +40,12 @@ namespace EretailApp
             var page1 = new MasterPageItem() { Title = "Home", Icon = "home.png", TargetType = typeof(Home) };
             var page2 = new MasterPageItem() { Title = "Sales", Icon = "sal.png", TargetType = typeof(Sales) };
             var page3 = new MasterPageItem() { Title = "Masters", Icon = "prod.png", TargetType = typeof(Products) };
-            var page4 = new MasterPageItem() { Title = "Customer", Icon = "customer.png", TargetType = typeof(Customer) };
-            var page5 = new MasterPageItem() { Title = "Reports", Icon = "sss.png", TargetType = typeof(Reports) };
-            var page6 = new MasterPageItem() { Title = "Settings", Icon = "setting.png", TargetType = typeof(Setup) };
-            var page7 = new MasterPageItem() { Title = "Logout", Icon = "logout.png", TargetType = typeof(Logout) };
+           
+            var page4 = new MasterPageItem() { Title = "Reports", Icon = "sss.png", TargetType = typeof(Reports) };
+            var page5 = new MasterPageItem() { Icon = "recive.png", Title = "Receiving / Returns" };
+            var page6 = new MasterPageItem() { Icon = "recive.png", Title = "Stock" };
+            var page7 = new MasterPageItem() { Title = "Settings", Icon = "setting.png", TargetType = typeof(Setup) };
+            var page8 = new MasterPageItem() { Title = "Logout", Icon = "logout.png", TargetType = typeof(Logout) };
           //  var page8 = new MasterPageItem() { Title = "Categeory", Icon = "categeory.png",  TargetType = typeof(categoryForm) };
 
             //var page6 = new MasterPageItem() { Title = "Login", Icon = "bui.png", TargetType = typeof(Page3) };
@@ -59,7 +61,7 @@ namespace EretailApp
             menuList.Add(page5);
             menuList.Add(page6);
             menuList.Add(page7);
-           // menuList.Add(page8);
+            menuList.Add(page8);
 
             // Setting our list to be ItemSource for ListView in MainPage.xaml
             navigationDrawerList.ItemsSource = menuList;
@@ -100,14 +102,13 @@ namespace EretailApp
 
 
                 var page1 = new MasterPageItem() { Icon1 = "prod.png", Title = "Product", TargetType = typeof(ProductDetails) };
-                var page2 = new MasterPageItem() { Icon1 = "categeory.png", Title = "category", TargetType = typeof(categoryForm) };
+                var page2 = new MasterPageItem() { Icon1 = "categeory.png", Title = "Category", TargetType = typeof(categoryForm) };
                 var page3 = new MasterPageItem() { Icon1 = "departmnt.png", Title = "Department" };
                 var page4 = new MasterPageItem() { Icon1 = "brand.png", Title = "Brand" };
                 var page5 = new MasterPageItem() { Icon1 = "supply.png", Title = "Vendor" };
                 var page6 = new MasterPageItem() { Icon1 = "tax.png", Title = "Tax" };
-                var page7 = new MasterPageItem() { Icon1 = "recive.png", Title = "Receiving / Returns" };
-                var page8 = new MasterPageItem() { Icon1 = "recive.png", Title = "Stock" };
-                var page9 = new MasterPageItem() { Icon1 = "customer.png", Title = "Employee" };
+                var page7 = new MasterPageItem() { Title = "Customer", Icon1 = "customer.png", TargetType = typeof(Customer) };
+              var page8 = new MasterPageItem() { Icon1 = "customer.png", Title = "Employee" };
                 //var page6 = new MasterPageItem() { Title = "Login", Icon = "bui.png", TargetType = typeof(Page3) };
                 //var page7 = new MasterPageItem() { Title = "Register", Icon = "sim.png", TargetType = typeof(Page1) };
                 //var page8 = new MasterPageItem() { Title = "MainScreen", Icon = "fire.png", TargetType = typeof(Page2) };
@@ -122,7 +123,7 @@ namespace EretailApp
                 menuList1.Add(page6);
                 menuList1.Add(page7);
                 menuList1.Add(page8);
-                menuList1.Add(page9);
+               // menuList1.Add(page9);
                 navigationDrawerList1.IsVisible = true;
                 // Setting our list to be ItemSource for ListView in MainPage.xaml
                 navigationDrawerList1.ItemsSource = menuList1;
@@ -176,9 +177,25 @@ namespace EretailApp
 
             }
 
-            else if (item.Title.Equals("Customer"))
+            else if (item.Title.Equals("Receiving / Returns"))
             {
-                Detail = new CustomerForm();
+                Navigation.PushModalAsync(new TransactionsForm());
+
+                // Detail = new TransactionsForm();
+                //headertitle.Text = item.Title;
+
+
+            }
+
+
+            else if (item.Title.Equals("Stock"))
+            {
+
+               Navigation.PushModalAsync(new StackingForm());
+
+                // Detail = new StackingForm();
+                //headertitle.Text = item.Title;
+
 
             }
 
@@ -228,7 +245,7 @@ namespace EretailApp
 
             }
 
-        if (item.Title.Equals("category"))
+        if (item.Title.Equals("Category"))
             {
                // Navigation.PushModalAsync(new categoryForm());
 
@@ -278,31 +295,15 @@ namespace EretailApp
 
             }
 
-
-
-            
-
-            if (item.Title.Equals("Receiving / Returns"))
+         if (item.Title.Equals("Customer"))
             {
-                await Navigation.PushModalAsync(new TransactionsForm());
-
-               // Detail = new TransactionsForm();
-                //headertitle.Text = item.Title;
-
+                Detail = new CustomerForm();
 
             }
 
 
-           if (item.Title.Equals("Stock"))
-            {
 
-                await Navigation.PushModalAsync(new StackingForm());
-
-               // Detail = new StackingForm();
-                //headertitle.Text = item.Title;
-
-
-            }
+          
 
 
 

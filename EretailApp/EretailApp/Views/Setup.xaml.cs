@@ -23,12 +23,17 @@ namespace EretailApp.Views
            {
         name="Telugu",
         PaymentMode="Cash",
+        HourlySales="1",
+        DayendSales="1",
+
 
          },
            new ProductModel
            {
                 name="Jeans",
                  PaymentMode="Card",
+                    HourlySales="2",
+        DayendSales="2",
 
 
            }
@@ -38,7 +43,8 @@ namespace EretailApp.Views
            {
                name="English",
                 PaymentMode="Credit",
-
+                             HourlySales="3",
+        DayendSales="3"
 
            }
              ,
@@ -46,6 +52,8 @@ namespace EretailApp.Views
            {
                name="Hindi",
                 PaymentMode="Cheque",
+                             HourlySales="4",
+        DayendSales="4"
 
 
            }
@@ -55,6 +63,8 @@ namespace EretailApp.Views
            {
                name="Gap-TShirt ",
                 PaymentMode="Cash",
+               HourlySales="5",
+             DayendSales="5"
 
            }
 
@@ -74,10 +84,10 @@ namespace EretailApp.Views
 
             // paymentModes
 
-            //PaymentModePicker.Items.Add("Cash");
-            //PaymentModePicker.Items.Add("Card");
-            //PaymentModePicker.Items.Add("Credit");
-            //PaymentModePicker.Items.Add("Cheque");
+            PaymentModePicker.Items.Add("Cash");
+            PaymentModePicker.Items.Add("Card");
+            PaymentModePicker.Items.Add("Credit");
+            PaymentModePicker.Items.Add("Cheque");
 
         }
 
@@ -116,41 +126,126 @@ namespace EretailApp.Views
         }
 
 
-        public void btnpayment(Object o, EventArgs e)
-        {
-            PaymentList.ItemsSource = ll;
-            selectPaymentList.ItemsSource = lm;
-            paymentlistsl.IsVisible = true;
-            selectpaymentlistsl.IsVisible = false;
+      //  public void btnpayment(Object o, EventArgs e)
+      //  {
+      //      PaymentList.ItemsSource = ll;
+      //      selectPaymentList.ItemsSource = lm;
+      //      paymentlistsl.IsVisible = true;
+      //      selectpaymentlistsl.IsVisible = false;
        
-        }
+      //  }
 
-        public void OnPaymentModeSelected(Object o, SelectedItemChangedEventArgs e)
+      //  public void OnPaymentModeSelected(Object o, SelectedItemChangedEventArgs e)
+      //  {
+
+
+      //      var item = (ProductModel)e.SelectedItem;
+      //     // paybtn.Text = item.PaymentMode.ToString();
+      //      //item.IsOwned.ToString();
+           
+      //      paymentlistsl.IsVisible = false;
+
+      //}
+
+      //public void savepaylist(Object o, EventArgs e)
+      //  {
+      //      lm.Clear();
+           
+      //      PaymentList.ItemsSource = ll;
+      //      foreach (ProductModel pm in ll)
+      //      {
+      //lm.Add(pm);
+      //    }
+           
+      //      selectPaymentList.ItemsSource = lm;
+
+      //      selectpaymentlistsl.IsVisible = true;
+      //      paymentlistsl.IsVisible = false;
+
+
+      //  }
+
+
+
+        public void OnHrItemSelected(Object o, SelectedItemChangedEventArgs e)
         {
-
 
             var item = (ProductModel)e.SelectedItem;
-           // paybtn.Text = item.PaymentMode.ToString();
-            //item.IsOwned.ToString();
-           
-            paymentlistsl.IsVisible = false;
+            entryHr.Text = item.HourlySales.ToString();
+            HrlistSL.IsVisible = false;
+            HrAddiconsl.IsVisible = true;
+            HrMinusiconsl.IsVisible = false;
+ }
 
-      }
 
-      public void savepaylist(Object o, EventArgs e)
+        public void HrItemClilcked(Object o, SelectedItemChangedEventArgs e)
         {
-            lm.Clear();
-           
-            PaymentList.ItemsSource = ll;
-            foreach (ProductModel pm in ll)
-            {
-      lm.Add(pm);
-          }
-           
-            selectPaymentList.ItemsSource = lm;
+            HrlistSL.IsVisible = true;
+            HrAddiconsl.IsVisible = false;
+            HrMinusiconsl.IsVisible = true;
 
-            selectpaymentlistsl.IsVisible = true;
-            paymentlistsl.IsVisible = false;
+            HrList.ItemsSource = ll;
+        }
+
+        public void HrItemClilckedMinus(Object o, SelectedItemChangedEventArgs e)
+        {
+            HrlistSL.IsVisible = false;
+            HrAddiconsl.IsVisible = true;
+            HrMinusiconsl.IsVisible = false;
+
+        }
+
+        public void btnclick(Object o, EventArgs e)
+        {
+
+            string str = searchHr.Text;
+            IEnumerable<ProductModel> searchresult = ll.Where(name1 => name1.HourlySales.Contains(str));
+            HrList.ItemsSource = searchresult;
+
+          
+
+        }
+
+
+
+
+
+
+        public void OnDayEndItemSelected(Object o, SelectedItemChangedEventArgs e)
+        {
+
+            var item = (ProductModel)e.SelectedItem;
+            entryDayEnd.Text = item.DayendSales.ToString();
+            DayEndlistSL.IsVisible = false;
+            DayEndAddiconsl.IsVisible = true;
+            DayEndMinusiconsl.IsVisible = false;
+        }
+
+
+        public void DayEndItemClilcked(Object o, SelectedItemChangedEventArgs e)
+        {
+            DayEndlistSL.IsVisible = true;
+            DayEndAddiconsl.IsVisible = false;
+            DayEndMinusiconsl.IsVisible = true;
+
+            DayEndList.ItemsSource = ll;
+        }
+
+        public void DayEndItemClilckedMinus(Object o, SelectedItemChangedEventArgs e)
+        {
+            DayEndlistSL.IsVisible = false;
+            DayEndAddiconsl.IsVisible = true;
+            DayEndMinusiconsl.IsVisible = false;
+
+        }
+
+        public void btnDayEndclick(Object o, EventArgs e)
+        {
+
+            string str = searchHr.Text;
+            IEnumerable<ProductModel> searchresult = ll.Where(name1 => name1.DayendSales.Contains(str));
+            DayEndList.ItemsSource = searchresult;
+
 
 
         }
@@ -158,31 +253,37 @@ namespace EretailApp.Views
 
 
 
-        //public void ChoosePayment(Object o, EventArgs e)
-        //{
-
-       // savepaylist
-
-        //    var payment = PaymentModePicker.Items[PaymentModePicker.SelectedIndex];
-        //}
-
-        //void EnableSave(object sender, ToggledEventArgs e)
-        //{
-
-        //    //  if (e.Value.ToString().Equals("True"))
-        //    //    {
-        //    //        swcard.Text = "ON";
-
-
-        //    //    }
-        //    //    else
-        //    //    {
-        //    //        swcard.Text = "OFF";
-        //    //    }
 
 
 
-        //}
+
+
+
+        public void ChoosePayment(Object o, EventArgs e)
+        {
+
+           
+
+               var payment = PaymentModePicker.Items[PaymentModePicker.SelectedIndex];
+        }
+
+        void EnableSave(object sender, ToggledEventArgs e)
+        {
+
+            //  if (e.Value.ToString().Equals("True"))
+            //    {
+            //        swcard.Text = "ON";
+
+
+            //    }
+            //    else
+            //    {
+            //        swcard.Text = "OFF";
+            //    }
+
+
+
+        }
 
 
 

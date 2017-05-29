@@ -84,6 +84,7 @@ namespace EretailApp
         public void AddDepartment(Object o, EventArgs e)
         {
             // Navigation.PushModalAsync(new AddCategoryForm());
+            DeptTitle.Text = "Department";
             CreateCategory.IsVisible = true;
         }
 

@@ -46,6 +46,8 @@ namespace EretailApp
         public string Remarks { get; set; }
         public string Icon { get; set; }
         public string PaymentMode { get; set; }
+        public string HourlySales { get; set; }
+        public string DayendSales { get; set; }
 
     }
 }

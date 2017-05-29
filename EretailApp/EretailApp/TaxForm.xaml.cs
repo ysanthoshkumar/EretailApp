@@ -124,6 +124,7 @@ namespace EretailApp
         public void AddTax(Object o, EventArgs e)
         {
             // Navigation.PushModalAsync(new AddCategoryForm());
+            TaxTitle.Text = "Tax";
             CreateCategory.IsVisible = true;
         }
 

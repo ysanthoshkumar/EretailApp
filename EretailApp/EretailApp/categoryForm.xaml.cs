@@ -84,6 +84,7 @@ namespace EretailApp
         public void ADDCategory(Object o, EventArgs e)
         {
             // Navigation.PushModalAsync(new AddCategoryForm());
+            categoryTitle.Text = "Category";
             CreateCategory.IsVisible = true;
         }
 

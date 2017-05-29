@@ -86,8 +86,8 @@
 
             <local:BoxBorderEntry  Placeholder="Vendor Name"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
-            <local:BoxBorderEntry  Placeholder="Contact Number"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
-              <local:BoxBorderEntry  Placeholder="Contact Person"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+            <local:BoxBorderEntry  Placeholder="Contact Person"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+              <local:BoxBorderEntry  Placeholder="Contact Number"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" Padding="5" >
@@ -109,6 +109,7 @@
               
               <local:BoxBorderEntry  Placeholder="GST "   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
               <local:BoxBorderEntry  Placeholder="Discount"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+              <local:BoxBorderEntry  Placeholder="Email ID"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
               <Label   Text="Inactive" FontSize="18"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
               <Switch HorizontalOptions="Center" VerticalOptions="Center" />
             

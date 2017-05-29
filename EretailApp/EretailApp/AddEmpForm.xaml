@@ -109,7 +109,7 @@
 
                 <local:BoxBorderEntry  Placeholder="Emp Category"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
                 <local:BoxBorderEntry  Placeholder="Emp Commission %"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
-                <local:BoxBorderEntry  Placeholder="Emil Id"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                <local:BoxBorderEntry  Placeholder="Email ID"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
               </StackLayout>
               <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" >
                 <Label   Text="Login Allowed" FontSize="18"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>

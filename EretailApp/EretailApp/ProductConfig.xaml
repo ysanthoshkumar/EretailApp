@@ -107,8 +107,8 @@
                 <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
                   <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5">
 
-                    <local:BoxBorderEntry  Placeholder="Enter Product"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
-
+                    <local:BoxBorderEntry  Placeholder="Enter Product Code"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                    <Image Aspect="AspectFill" Source="Star.png" VerticalOptions="Start" HorizontalOptions="Start" ></Image>
                     <local:BoxBorderEntry  Placeholder="Enter Short Description"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
                   </StackLayout>
 
@@ -176,11 +176,11 @@
 
               <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" >
 
-                <local:BoxBorderEntry  Placeholder="Enter Cp"  WidthRequest="60"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                <local:BoxBorderEntry  Placeholder="Enter Cost price "  WidthRequest="60"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
                 <local:BoxBorderEntry  Placeholder="Enter MarkUp / Down"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
-                <local:BoxBorderEntry  Placeholder="Enter Sp"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                <local:BoxBorderEntry  Placeholder="Enter Sales Price"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
                 <local:BoxBorderEntry  Placeholder="Enter MRP"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
               </StackLayout>
