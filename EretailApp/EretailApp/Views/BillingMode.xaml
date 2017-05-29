@@ -58,7 +58,7 @@
     </StackLayout>
 
 
-    <ContentView  HorizontalOptions="FillAndExpand" x:Name="CreateCategory" >
+    <ContentView  HorizontalOptions="FillAndExpand" >
       <ContentView Style="{StaticResource BorderStyle}" >
         <ContentView Style="{StaticResource InternalViewStyle}">
 

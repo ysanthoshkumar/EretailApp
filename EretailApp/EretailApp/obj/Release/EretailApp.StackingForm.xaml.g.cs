@@ -27,6 +27,12 @@ namespace EretailApp {
         private global::EretailApp.BoxBorderEntry entryEAN;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.StackLayout Addiconsl;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.StackLayout Minusiconsl;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::EretailApp.BoxBorderEntry entryQty;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -60,6 +66,12 @@ namespace EretailApp {
         private global::EretailApp.BoxBorderEntry EditentryEAN;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.StackLayout EditEanAddIconsl;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.StackLayout EditEanMinusIconsl;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::EretailApp.BoxBorderEntry EditentryQty;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -84,6 +96,8 @@ namespace EretailApp {
             SkuListAdd = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "SkuListAdd");
             entrysku = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "entrysku");
             entryEAN = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "entryEAN");
+            Addiconsl = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "Addiconsl");
+            Minusiconsl = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "Minusiconsl");
             entryQty = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "entryQty");
             entrVariants = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "entrVariants");
             entrRemarks = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "entrRemarks");
@@ -95,6 +109,8 @@ namespace EretailApp {
             SkuListEdit = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "SkuListEdit");
             Editentrysku = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "Editentrysku");
             EditentryEAN = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "EditentryEAN");
+            EditEanAddIconsl = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "EditEanAddIconsl");
+            EditEanMinusIconsl = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "EditEanMinusIconsl");
             EditentryQty = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "EditentryQty");
             EditentryVariant = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "EditentryVariant");
             EditentryRemarks = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "EditentryRemarks");

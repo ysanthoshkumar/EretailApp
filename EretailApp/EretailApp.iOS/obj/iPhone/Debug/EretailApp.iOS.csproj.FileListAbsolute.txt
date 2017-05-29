@@ -6,7 +6,6 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp.iOS\bin\iPhone\Debug\Xamarin.F
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.iOS\bin\iPhone\Debug\EretailApp.pdb
-E:\Medium\Github\EretailApp\EretailApp\EretailApp.iOS\bin\iPhone\Debug\EretailApp.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.pdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.xml
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll.mdb

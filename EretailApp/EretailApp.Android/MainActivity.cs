@@ -23,6 +23,9 @@ namespace EretailApp.Droid
         }
 
 
+
+
+
       
 
     }

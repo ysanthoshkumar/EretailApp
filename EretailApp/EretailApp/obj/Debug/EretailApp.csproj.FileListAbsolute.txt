@@ -112,8 +112,6 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.BrandForm
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.TaxForm.xaml.g.cs
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.SupplierFormxaml.xaml.g.cs
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.AddSupplierForm.xaml.g.cs
-E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll
-E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.pdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.CustomerForm.xaml.g.cs
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.EmployeeForm.xaml.g.cs
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.AddCustomer.xaml.g.cs
@@ -126,3 +124,7 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Bus
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.PaymentMode.xaml.g.cs
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.BillPrinting.xaml.g.cs
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.HardwareSetting.xaml.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.pdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll.mdb

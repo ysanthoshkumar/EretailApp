@@ -68,6 +68,7 @@
         <ContentView Style="{StaticResource InternalViewStyle}">
           
           <StackLayout Orientation="Vertical">
+            
        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" Spacing="5">
 
       <SearchBar x:Name="searchcategory" Placeholder="Search here"    HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray" SearchButtonPressed="SearchCategoryclick"></SearchBar>

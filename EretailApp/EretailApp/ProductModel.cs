@@ -18,8 +18,22 @@ namespace EretailApp
         get;
         set;
     }
+        bool _isOwned;
+        public bool IsOwned
+        {
+            get
+            {
+                return _isOwned;
+            }
+            set
+            {
+                _isOwned = value;
+                // Do any other stuff you want here
+            }
+        }
 
-    public string category { get; set; }
+
+        public string category { get; set; }
 
         public string Sku { get; set; }
         public string EANCode { get; set; }
@@ -31,6 +45,7 @@ namespace EretailApp
         public string Variant { get; set; }
         public string Remarks { get; set; }
         public string Icon { get; set; }
+        public string PaymentMode { get; set; }
 
-}
+    }
 }

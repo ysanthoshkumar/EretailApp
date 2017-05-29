@@ -4,6 +4,7 @@
               xmlns:local="clr-namespace:EretailApp"
              x:Class="EretailApp.AddCategoryForm"
             BackgroundColor="White">
+    
   <ContentPage.Resources>
 
     <ResourceDictionary x:Name="AppDictionary">

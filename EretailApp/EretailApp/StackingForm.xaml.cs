@@ -221,18 +221,45 @@ namespace EretailApp
         public void SkuItemClilcked(Object o, EventArgs e)
         {
             SkuSL.IsVisible = true;
-
+            Addiconsl.IsVisible = false;
+            Minusiconsl.IsVisible = true;
             SkuList.ItemsSource = ll;
+
+           
+
         }
+
+
+        public void SkuItemClilckedMinus(Object o, EventArgs e)
+        {
+
+            SkuSL.IsVisible = false;
+            Addiconsl.IsVisible = true;
+            Minusiconsl.IsVisible = false;
+        }
+
+
+
 
         public void EditSkuItemClilcked(Object o, EventArgs e)
         {
 
             EditSkuSL.IsVisible = true;
+            EditEanAddIconsl.IsVisible = false;
+            EditEanMinusIconsl.IsVisible = true;
             EditSkuList.ItemsSource = ll;
+
+           
+
         }
 
 
+        public void EditMinusSkuItemClilcked(Object o, EventArgs e)
+        {
+            EditSkuSL.IsVisible = false;
+            EditEanAddIconsl.IsVisible = true;
+            EditEanMinusIconsl.IsVisible = false;
+        }
 
 
         public void OnSkuItemSelected(Object o, SelectedItemChangedEventArgs e)
@@ -241,6 +268,9 @@ namespace EretailApp
             var item = (ProductModel)e.SelectedItem;
             entryEAN.Text = item.name.ToString();
             SkuSL.IsVisible = false;
+            Addiconsl.IsVisible = true;
+            Minusiconsl.IsVisible = false;
+
 
 
         }
@@ -252,6 +282,9 @@ namespace EretailApp
             var item = (ProductModel)e.SelectedItem;
             EditentryEAN.Text = item.name.ToString();
             EditSkuSL.IsVisible = false;
+            EditEanAddIconsl.IsVisible = false;
+            EditEanMinusIconsl.IsVisible = true;
+
 
 
         }

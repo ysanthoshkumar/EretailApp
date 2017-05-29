@@ -71,9 +71,24 @@ namespace EretailApp
         public TransactionsForm()
         {
             InitializeComponent();
-          
+
+            ReturnPicker.Items.Add("Receive");
+            ReturnPicker.Items.Add("Return");
+            
 
         }
+
+        public void ChooseReturnPicker(Object o, EventArgs e)
+        {
+
+            var name = ReturnPicker.Items[ReturnPicker.SelectedIndex];
+        }
+
+
+
+
+
+
 
 
         public void btnclick(Object o, EventArgs e)
@@ -94,37 +109,100 @@ namespace EretailApp
 
 
 
+
+
+
         // ean and rate (in Additon ,Edit layout Imple)
+
         public void SkuItemClilcked(Object o, EventArgs e)
         {
             SkuSL.IsVisible = true;
+            Addiconsl.IsVisible = false;
+            Minusiconsl.IsVisible = true;
 
          SkuList.ItemsSource = ll;
         }
+
+
+        public void SkuItemClilckedMinus(Object o, EventArgs e)
+        {
+            SkuSL.IsVisible = false;
+            Minusiconsl.IsVisible = false;
+            Addiconsl.IsVisible = true;
+
+            // SkuList.ItemsSource = ll;
+        }
+
+
+
+
+        // Edit Add Ean row info 
 
         public void EditSkuItemClilcked(Object o, EventArgs e)
         {
 
             EditSkuSL.IsVisible = true;
+            EditEanAddIconsl.IsVisible = false;
+            EditEanMinusIconsl.IsVisible = true;
             EditSkuList.ItemsSource = ll;
+        }
+        public void EditMinusSkuItemClilcked(Object o, EventArgs e)
+        {
+            EditSkuSL.IsVisible = false;
+            EditEanAddIconsl.IsVisible = true;
+            EditEanMinusIconsl.IsVisible = false;
         }
 
 
+
+
+
+
+        // Rate Add Icon 
 
         public void RateItemClilcked(Object o, EventArgs e)
         {
-            RateSL.IsVisible = true;
+          //rateimg.Source = "minusIcon.png";
 
+            RateSL.IsVisible = true;
+            RateAddiconsl.IsVisible = false;
+            RateMinusiconsl.IsVisible = true;
             RateList.ItemsSource = ll;
         }
+
+
+        // Rate Minus Icon 
+        public void MinusIconrateItemClilcked(Object o, EventArgs e)
+        {
+            RateSL.IsVisible = false;
+            RateAddiconsl.IsVisible = true;
+            RateMinusiconsl.IsVisible = false;
+
+        }
+
+
+
+
 
 
         public void EditRateItemClilcked(Object o, EventArgs e)
         {
             EditRateSL.IsVisible = true;
+            EditrateAddIconsl.IsVisible = false;
+            EditrateMinusIconsl.IsVisible = true;
 
             EditRateList.ItemsSource = ll;
+
+   }
+
+        // Edit minus Icon 
+        public void EditminusRateItemClilcked(Object o, EventArgs e)
+        {
+            EditRateSL.IsVisible = false;
+            EditrateAddIconsl.IsVisible = true;
+            EditrateMinusIconsl.IsVisible = false;
         }
+
 
 
         // add details to Listview 
@@ -224,7 +302,14 @@ List<ProductModel> ll = new List<ProductModel>
         }
 
 
+        //public void rateimageclicked(Object o, EventArgs e)
+        //{
 
+
+        //    rateimage.Image ="minusIcon.png";
+
+
+        //}
 
 
 
@@ -283,9 +368,13 @@ List<ProductModel> ll = new List<ProductModel>
             var item = (ProductModel)e.SelectedItem;
             entryEAN.Text=item.name.ToString();
             SkuSL.IsVisible = false;
+            Addiconsl.IsVisible = true;
+            Minusiconsl.IsVisible = false;
+
            
 
         }
+
 
         public void OnEditSkuItemSelected(Object o, SelectedItemChangedEventArgs e)
         {
@@ -293,13 +382,16 @@ List<ProductModel> ll = new List<ProductModel>
             var item = (ProductModel)e.SelectedItem;
             EditentryEAN.Text = item.name.ToString();
             EditSkuSL.IsVisible = false;
+            EditEanAddIconsl.IsVisible = true;
+            EditEanMinusIconsl.IsVisible = false;
+
 
 
         }
 
 
 
-
+        // rate listview 
 
         public void OnRateItemSelected(Object o, SelectedItemChangedEventArgs e)
         {
@@ -307,6 +399,9 @@ List<ProductModel> ll = new List<ProductModel>
             var item = (ProductModel)e.SelectedItem;
             entryRate.Text = item.Dept.ToString();
             RateSL.IsVisible = false;
+            RateAddiconsl.IsVisible = true;
+            RateMinusiconsl.IsVisible = false;
+
 
 
         }
@@ -318,7 +413,8 @@ List<ProductModel> ll = new List<ProductModel>
             var item = (ProductModel)e.SelectedItem;
             EditentryRate.Text = item.Dept.ToString();
             EditRateSL.IsVisible = false;
-
+            EditrateAddIconsl.IsVisible =true;
+           EditrateMinusIconsl.IsVisible = false;
 
         }
 

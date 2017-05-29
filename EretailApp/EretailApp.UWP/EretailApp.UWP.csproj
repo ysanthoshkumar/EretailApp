@@ -144,6 +144,7 @@
     <Content Include="leftarr.png" />
     <Content Include="logo.png" />
     <Content Include="logout.png" />
+    <Content Include="minusIcon.png" />
     <Content Include="prod.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-100.png" />

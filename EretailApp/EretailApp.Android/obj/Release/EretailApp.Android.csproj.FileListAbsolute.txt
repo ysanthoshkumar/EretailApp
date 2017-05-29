@@ -1,3 +1,4 @@
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\EretailApp.Android.csprojResolveAssemblyReference.cache
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\EretailApp.Android.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\EretailApp.Android.pdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\EretailApp.Android.apk
@@ -16,6 +17,7 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\Xamarin.Fo
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\Xamarin.Forms.Platform.Android.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\Xamarin.Forms.Platform.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\Xamarin.Forms.Xaml.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\Xamarin.iOS.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\EretailApp.pdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\FormsViewGroup.pdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\FormsViewGroup.dll.mdb
@@ -27,7 +29,8 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\Xamarin.Fo
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\Xamarin.Forms.Xaml.pdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\Xamarin.Forms.Xaml.xml
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\Xamarin.Forms.Xaml.dll.mdb
-E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\EretailApp.Android.csprojResolveAssemblyReference.cache
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\Xamarin.iOS.xml
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\Xamarin.iOS.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\EretailApp.Android.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\EretailApp.Android.pdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\bin\EretailApp.Android.apk
@@ -64,12 +67,13 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\res\drawab
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\res\drawable\ic_user.png
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\res\drawable\leftcir.png
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\res\drawable\back.png
-E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\R.cs.flag
-E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\uploadflags.txt
-E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\res\drawable\additionicon.png
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\res\drawable\deleteicon.png
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\res\drawable\editicon.png
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\res\drawable\additionicon.png
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\res\drawable\camaraicon.png
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\res\drawable\minusicon.png
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\R.cs.flag
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\uploadflags.txt
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\EretailApp.Android.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\EretailApp.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\Java.Interop.dll.mdb
@@ -89,14 +93,17 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\as
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\Java.Interop.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\Mono.Android.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\mscorlib.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\System.ComponentModel.Composition.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\System.Core.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\System.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\System.Net.Http.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\System.Runtime.Serialization.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\System.ServiceModel.Internals.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\System.Xml.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\System.Xml.Linq.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\Xamarin.Forms.Core.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\Xamarin.Forms.Xaml.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\Xamarin.iOS.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\EretailApp.Android.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\EretailApp.Android.dll.mdb

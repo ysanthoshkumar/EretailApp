@@ -13,6 +13,7 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\asse
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\Xamarin.iOS.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\Java.Interop.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\Mono.Android.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\mscorlib.dll
@@ -45,4 +46,3 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\asse
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.Text.RegularExpressions.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.Collections.Concurrent.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\System.Runtime.InteropServices.dll
-E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Debug\android\assets\Mono.Security.dll
