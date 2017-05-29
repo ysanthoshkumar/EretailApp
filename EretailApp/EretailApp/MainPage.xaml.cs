@@ -100,13 +100,13 @@ namespace EretailApp
 
 
                 var page1 = new MasterPageItem() { Icon1 = "prod.png", Title = "Product", TargetType = typeof(ProductDetails) };
-                var page2 = new MasterPageItem() { Icon1 = "categeory.png", Title = "Categeory", TargetType = typeof(categoryForm) };
+                var page2 = new MasterPageItem() { Icon1 = "categeory.png", Title = "category", TargetType = typeof(categoryForm) };
                 var page3 = new MasterPageItem() { Icon1 = "departmnt.png", Title = "Department" };
                 var page4 = new MasterPageItem() { Icon1 = "brand.png", Title = "Brand" };
-                var page5 = new MasterPageItem() { Icon1 = "supply.png", Title = "Supplier" };
+                var page5 = new MasterPageItem() { Icon1 = "supply.png", Title = "Vendor" };
                 var page6 = new MasterPageItem() { Icon1 = "tax.png", Title = "Tax" };
-                var page7 = new MasterPageItem() { Icon1 = "recive.png", Title = "Receving/Returns" };
-                var page8 = new MasterPageItem() { Icon1 = "recive.png", Title = "Stocking" };
+                var page7 = new MasterPageItem() { Icon1 = "recive.png", Title = "Receiving / Returns" };
+                var page8 = new MasterPageItem() { Icon1 = "recive.png", Title = "Stock" };
                 var page9 = new MasterPageItem() { Icon1 = "customer.png", Title = "Employee" };
                 //var page6 = new MasterPageItem() { Title = "Login", Icon = "bui.png", TargetType = typeof(Page3) };
                 //var page7 = new MasterPageItem() { Title = "Register", Icon = "sim.png", TargetType = typeof(Page1) };
@@ -228,7 +228,7 @@ namespace EretailApp
 
             }
 
-        if (item.Title.Equals("Categeory"))
+        if (item.Title.Equals("category"))
             {
                // Navigation.PushModalAsync(new categoryForm());
 
@@ -268,7 +268,7 @@ namespace EretailApp
 
 
 
-            if (item.Title.Equals("Supplier"))
+            if (item.Title.Equals("Vendor"))
             {
                 // Navigation.PushModalAsync(new categoryForm());
 
@@ -282,7 +282,7 @@ namespace EretailApp
 
             
 
-            if (item.Title.Equals("Receving/Returns"))
+            if (item.Title.Equals("Receiving / Returns"))
             {
                 await Navigation.PushModalAsync(new TransactionsForm());
 
@@ -293,7 +293,7 @@ namespace EretailApp
             }
 
 
-           if (item.Title.Equals("Stocking"))
+           if (item.Title.Equals("Stock"))
             {
 
                 await Navigation.PushModalAsync(new StackingForm());

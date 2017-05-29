@@ -18,6 +18,9 @@ namespace EretailApp {
         private global::Xamarin.Forms.ResourceDictionary AppDictionary;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Picker StockPicker;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.StackLayout SkuListAdd;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -93,6 +96,7 @@ namespace EretailApp {
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(StackingForm));
             AppDictionary = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ResourceDictionary>(this, "AppDictionary");
+            StockPicker = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "StockPicker");
             SkuListAdd = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "SkuListAdd");
             entrysku = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "entrysku");
             entryEAN = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "entryEAN");

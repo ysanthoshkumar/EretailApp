@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                xmlns:local="clr-namespace:EretailApp"
+              BackgroundColor="White"
              x:Class="EretailApp.StackingForm">
 
   <ContentPage.Resources>
@@ -43,6 +44,8 @@
         <Grid.ColumnDefinitions >
           <ColumnDefinition Width="*" />
           <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="100" />
+          <ColumnDefinition Width="100" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
           <RowDefinition Height="50" />
@@ -64,8 +67,9 @@
 
         </Image>
         <Label  Text="Stock" VerticalTextAlignment="Center"    Grid.Row="0" Grid.Column="1" HorizontalOptions="Start"   HorizontalTextAlignment="Center"    FontSize="20"  FontFamily="Bold" TextColor="White"></Label>
-
-        <Button  Text="Cancel"    Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" ></Button>
+        
+        <Button  Text="Cancel"   Grid.Row="0" Grid.Column="2"  TextColor="White" BackgroundColor="#446a81" ></Button>
+  
         <Button  Text="Save" Style="{StaticResource ButtonStyle}"  Grid.Row="0" Grid.Column="3"   ></Button>
       </Grid>
     </StackLayout>
@@ -81,8 +85,12 @@
 
               <!-- Swich Buttons-->
               <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" >
-
-                <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+               
+                <!--   <StackLayout Orientation="Horizontal" WidthRequest="250">
+                <Picker x:Name="StockPicker"  TextColor="#000000"   BackgroundColor="White"  HorizontalOptions="FillAndExpand"  SelectedIndexChanged="ChooseStockPicker"  />
+                </StackLayout>-->
+                
+                <!--  <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
                   <Label   Text="Stock Write Off" FontSize="18"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
                   <Switch HorizontalOptions="Start" VerticalOptions="Center" />
                 </StackLayout>
@@ -90,14 +98,19 @@
                   <Label   Text="Stock Adjustment" FontSize="18"  VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
                   <Switch HorizontalOptions="End" VerticalOptions="Center" />
                 </StackLayout>
+                -->
               </StackLayout>
 
               <!-- Entry  Details -->
-              <StackLayout Orientation="Horizontal" Padding="5">
-               <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
-                  <Label   Text="Date: " FontSize="18"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
-                  <Label   Text="5/22/2017" FontSize="18"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
-                </StackLayout>
+              <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5">
+               
+                
+                <Picker x:Name="StockPicker"  TextColor="#000000"   BackgroundColor="White"  HorizontalOptions="FillAndExpand"  SelectedIndexChanged="ChooseStockPicker"  />
+              <Label   Text="Date:5/22/2017" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="FillAndExpand" FontFamily="Bold" TextColor="#000000"></Label>
+                 <local:BoxBorderEntry  Placeholder="Doc No"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                 <local:BoxBorderEntry  Placeholder="Doc Date"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/> 
+               
+             
               </StackLayout>
 
 

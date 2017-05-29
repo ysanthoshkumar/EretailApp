@@ -89,7 +89,6 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Core.x
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Platform.pdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Xaml.pdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\Xamarin.Forms.Xaml.xml
-E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.csprojResolveAssemblyReference.cache
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.MainPage.xaml.g.cs
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.App.xaml.g.cs
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Home.xaml.g.cs
@@ -126,5 +125,9 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Bil
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.HardwareSetting.xaml.g.cs
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.pdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll.mdb

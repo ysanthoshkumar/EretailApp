@@ -45,6 +45,8 @@
         <Grid.ColumnDefinitions >
           <ColumnDefinition Width="*" />
           <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="100" />
+          <ColumnDefinition Width="100" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
           <RowDefinition Height="50" />
@@ -98,7 +100,6 @@
 
                  <!-- Entry  Details -->
                <StackLayout Orientation="Horizontal" Padding="5">
-                 <Label Text="Type"  HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
                  
                  <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" WidthRequest="50">
                    <Picker x:Name="ReturnPicker"  TextColor="#000000"   BackgroundColor="White" Title="Choose Any One" HorizontalOptions="FillAndExpand"  SelectedIndexChanged="ChooseReturnPicker"  />
@@ -124,7 +125,7 @@
                   </Image.GestureRecognizers>
                    
               </Image>
-                      <local:BoxBorderEntry  Placeholder="Sku "  x:Name="entrysku"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696" />
+                      <local:BoxBorderEntry  Placeholder="SKU"  x:Name="entrysku"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696" />
               <local:BoxBorderEntry   x:Name="entryEAN"   Keyboard="Numeric" Placeholder="EAN "    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
               
                 <StackLayout x:Name="Addiconsl"  VerticalOptions="Center" HorizontalOptions="End" IsVisible="true">
@@ -300,7 +301,7 @@
                     <TapGestureRecognizer Tapped="EditDeleteIcon" />
                   </Image.GestureRecognizers>
                     </Image>
-                      <local:BoxBorderEntry  Placeholder="Sku "  x:Name="Editentrysku"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696" />
+                      <local:BoxBorderEntry  Placeholder="SKU "  x:Name="Editentrysku"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696" />
                  <local:BoxBorderEntry   x:Name="EditentryEAN"   Keyboard="Numeric"  Placeholder="EAN "    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
                  <StackLayout x:Name="EditEanAddIconsl"  VerticalOptions="Center" HorizontalOptions="End" IsVisible="true">

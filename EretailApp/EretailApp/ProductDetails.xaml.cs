@@ -87,15 +87,15 @@ namespace EretailApp
         {
 
             var name = Mainpicker.Items[Mainpicker.SelectedIndex];
-            DisplayAlert(name, "SelectedItem", "Okay");
+          //  DisplayAlert(name, "SelectedItem", "Okay");
             if (!name.Equals("") || !searchvalue.Text.Equals(""))
             {
                 String str = searchvalue.Text;
-                if (!str.Equals(""))
-                {
-                    IEnumerable<ProductModel> searchresult = ll.Where(name1 => name1.name.Contains(str) || name1.name.Contains(name));
-                    mylistvi.ItemsSource = searchresult;
-                }
+                //if (!str.Equals(""))
+                //{
+                    //IEnumerable<ProductModel> searchresult = ll.Where(name1 => name1.name.Contains(str) || name1.name.Contains(name));
+                    //mylistvi.ItemsSource = searchresult;
+               // }
 
             }
         }
@@ -104,13 +104,14 @@ namespace EretailApp
         {
 
             var name = Deptpicker.Items[Deptpicker.SelectedIndex];
-            DisplayAlert(name, "SelectedItem", "Okay");
-            if (!name.Equals(""))
-            {
-                String str = searchvalue.Text;
-                IEnumerable<ProductModel> searchresult = ll.Where(name1 => name1.name.Contains(str) || name1.name.Contains(name));
-                mylistvi.ItemsSource = searchresult;
-            }
+            //DisplayAlert(name, "SelectedItem", "Okay");
+
+            //if (!name.Equals(""))
+            //{
+            //    String str = searchvalue.Text;
+            //    IEnumerable<ProductModel> searchresult = ll.Where(name1 => name1.name.Contains(str) || name1.name.Contains(name));
+            //    mylistvi.ItemsSource = searchresult;
+            //}
 
 
 

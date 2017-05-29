@@ -43,8 +43,10 @@
     <StackLayout >
       <Grid BackgroundColor="#FE7C08"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="5" >
         <Grid.ColumnDefinitions >
+            <ColumnDefinition Width="*" />
           <ColumnDefinition Width="*" />
-          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="100" />
+          <ColumnDefinition Width="100" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
           <RowDefinition Height="50" />
@@ -109,6 +111,8 @@
                 <Grid.ColumnDefinitions >
                   <ColumnDefinition Width="*" />
                   <ColumnDefinition Width="*" />
+                  <ColumnDefinition Width="100" />
+                  <ColumnDefinition Width="100" />
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                   <RowDefinition Height="50" />

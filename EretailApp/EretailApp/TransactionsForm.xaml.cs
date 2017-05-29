@@ -72,8 +72,8 @@ namespace EretailApp
         {
             InitializeComponent();
 
-            ReturnPicker.Items.Add("Receive");
-            ReturnPicker.Items.Add("Return");
+            ReturnPicker.Items.Add("Receivings");
+            ReturnPicker.Items.Add("Purchase Returns");
             
 
         }

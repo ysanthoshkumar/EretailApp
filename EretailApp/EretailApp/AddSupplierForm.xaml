@@ -44,6 +44,8 @@
         <Grid.ColumnDefinitions >
           <ColumnDefinition Width="*" />
           <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="100" />
+          <ColumnDefinition Width="100" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
           <RowDefinition Height="50" />
@@ -64,7 +66,7 @@
 
 
         </Image>
-        <Label  Text="Supplier" VerticalTextAlignment="Center"    Grid.Row="0" Grid.Column="1" HorizontalOptions="Start"   HorizontalTextAlignment="Center"    FontSize="20"  FontFamily="Bold" TextColor="White"></Label>
+        <Label  Text="Vendor" VerticalTextAlignment="Center"    Grid.Row="0" Grid.Column="1" HorizontalOptions="Start"   HorizontalTextAlignment="Center"    FontSize="20"  FontFamily="Bold" TextColor="White"></Label>
 
         <Button  Text="Cancel"    Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" ></Button>
         <Button  Text="Save" Style="{StaticResource ButtonStyle}"  Grid.Row="0" Grid.Column="3"   ></Button>
@@ -85,6 +87,7 @@
             <local:BoxBorderEntry  Placeholder="Vendor Name"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
             <local:BoxBorderEntry  Placeholder="Contact Number"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+              <local:BoxBorderEntry  Placeholder="Contact Person"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" Padding="5" >

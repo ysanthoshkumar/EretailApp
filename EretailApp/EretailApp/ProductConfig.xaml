@@ -47,9 +47,11 @@
         <Grid.ColumnDefinitions >
           <ColumnDefinition Width="*" />
           <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="100" />
+          <ColumnDefinition Width="100" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-          <RowDefinition Height="50" />
+          <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
         <Image
                    Aspect="AspectFill"
@@ -68,7 +70,7 @@
         </Image>
         <Label  Text="Product" VerticalTextAlignment="Center"    Grid.Row="0" Grid.Column="1" HorizontalOptions="Start"   HorizontalTextAlignment="Center"    FontSize="20"  FontFamily="Bold" TextColor="White"></Label>
         
-        <Button  Text="Cancel"    Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" ></Button>
+        <Button  Text="Cancel"        Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" ></Button>
         <Button  Text="Save" Style="{StaticResource ButtonStyle}"  Grid.Row="0" Grid.Column="3"   ></Button>
       </Grid>
     </StackLayout>
@@ -107,12 +109,12 @@
 
                     <local:BoxBorderEntry  Placeholder="Enter Product"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
-                    <local:BoxBorderEntry  Placeholder="Enter Short Desc"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                    <local:BoxBorderEntry  Placeholder="Enter Short Description"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
                   </StackLayout>
 
                   <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5">
 
-                    <local:BoxBorderEntry  Placeholder="Enter Full Description"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                    <local:BoxBorderEntry  Placeholder="Enter Long Description"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
                    </StackLayout>
                 </StackLayout>
@@ -131,14 +133,25 @@
               <StackLayout Orientation="Vertical">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" >
 
-                  <Picker x:Name="CategoryPicker"  TextColor="#000000"  Title="Choose category"
-                       HorizontalOptions="FillAndExpand"   BackgroundColor="White"   />
-
-                  <Picker x:Name="DepartmentPicker"  TextColor="#000000"  Title="Choose Department"
-                     HorizontalOptions="FillAndExpand"   BackgroundColor="White"   />
+                  <Picker x:Name="CategoryPicker"  TextColor="#000000"  
+                       HorizontalOptions="FillAndExpand"   BackgroundColor="White"   >
+                    <Picker.Items>
+                      <x:String>Category</x:String>
+                      </Picker.Items>
+                        </Picker>
+                  <Picker x:Name="DepartmentPicker"  TextColor="#000000"  
+                     HorizontalOptions="FillAndExpand"   BackgroundColor="White"   >
+                    <Picker.Items>
+                      <x:String>Department</x:String>
+                    </Picker.Items>
+                  </Picker>
 
                   <Picker x:Name="BrandPicker"  TextColor="#000000"  Title="Choose Brand"
-                       HorizontalOptions="FillAndExpand"   BackgroundColor="White"   />
+                       HorizontalOptions="FillAndExpand"   BackgroundColor="White"   >
+                    <Picker.Items>
+                      <x:String>Brand</x:String>
+                    </Picker.Items>
+                  </Picker>
                 </StackLayout>
 
 
@@ -163,9 +176,9 @@
 
               <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" >
 
-                <local:BoxBorderEntry  Placeholder="Enter CP"  WidthRequest="60"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                <local:BoxBorderEntry  Placeholder="Enter Cp"  WidthRequest="60"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
-                <local:BoxBorderEntry  Placeholder="Enter MarkUp/Down"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                <local:BoxBorderEntry  Placeholder="Enter MarkUp / Down"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
                 <local:BoxBorderEntry  Placeholder="Enter Sp"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
@@ -182,7 +195,7 @@
 
               <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" >
 
-                <local:BoxBorderEntry  Placeholder="Enter EAN/UPC"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                <local:BoxBorderEntry  Placeholder="Enter EAN / UPC"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 
                 <local:BoxBorderEntry  Placeholder="Enter QOH"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
 

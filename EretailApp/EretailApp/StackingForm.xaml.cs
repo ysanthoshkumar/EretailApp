@@ -75,12 +75,21 @@ namespace EretailApp
         public StackingForm()
         {
             InitializeComponent();
+            StockPicker.Items.Add("Stock Write Off");
+            StockPicker.Items.Add("Stock Adjustment");
         }
 
         // back nav
         public void back(Object o, EventArgs e)
         {
             Navigation.PushModalAsync(new MainPage());
+        }
+        // Picker
+
+        public void ChooseStockPicker(Object o, EventArgs e)
+        {
+
+            var name = StockPicker.Items[StockPicker.SelectedIndex];
         }
 
         // Search Sku 
