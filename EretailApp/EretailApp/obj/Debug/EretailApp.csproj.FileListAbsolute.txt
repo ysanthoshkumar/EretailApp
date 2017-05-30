@@ -130,3 +130,5 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll.mdb
