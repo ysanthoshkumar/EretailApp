@@ -1,2 +1,2 @@
-D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\EretailApp.UWP.csproj;x64
-D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp\EretailApp.csproj;neutral
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\EretailApp.UWP.csproj;x64
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\EretailApp.csproj;neutral

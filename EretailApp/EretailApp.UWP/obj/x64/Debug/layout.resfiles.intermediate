@@ -1,4 +1,5 @@
 WinMetadata\Windows.winmd
+AdditionIcon.png
 arrow.png
 Assets\arrow.png
 Assets\brand.png
@@ -51,15 +52,21 @@ Assets\Wide310x150Logo.scale-125.png
 Assets\Wide310x150Logo.scale-150.png
 Assets\Wide310x150Logo.scale-200.png
 Assets\Wide310x150Logo.scale-400.png
+back.png
 EretailApp.UWP.xr.xml
 brand.png
+CamaraIcon.png
 categeory.png
 customer.png
+DeleteIcon.png
 departmnt.png
+EditIcon.png
 home.png
+ic_user.png
 leftarr.png
 logo.png
 logout.png
+minusIcon.png
 prod.png
 Properties\Default.rd.xml
 recive.png
@@ -68,7 +75,9 @@ saleee.png
 sales.png
 setting.png
 sss.png
+Star.png
 supply.png
 swamy.png
 tax.png
+Uploadimg.png
 vivekanada.png
