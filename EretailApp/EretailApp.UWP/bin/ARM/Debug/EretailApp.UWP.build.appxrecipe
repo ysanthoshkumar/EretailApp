@@ -594,6 +594,9 @@
     <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\sss.png">
       <PackagePath>sss.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\Star.png">
+      <PackagePath>Star.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\supply.png">
       <PackagePath>supply.png</PackagePath>
     </AppxPackagedFile>

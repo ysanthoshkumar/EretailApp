@@ -218,7 +218,7 @@ namespace EretailApp
         }
 
 
-        private async void OnMenuItemSelectedproducts(object sender, SelectedItemChangedEventArgs ee)
+        private  void OnMenuItemSelectedproducts(object sender, SelectedItemChangedEventArgs ee)
         {
 
             var item = (MasterPageItem)ee.SelectedItem;

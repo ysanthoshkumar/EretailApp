@@ -105,5 +105,6 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\as
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\Xamarin.Forms.Xaml.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\Xamarin.iOS.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\res\drawable\star.png
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\EretailApp.Android.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\bin\Release\EretailApp.Android.dll.mdb

@@ -2577,7 +2577,7 @@ containing a value of this type.
         public static final int mr_ic_pause_light=0x7f0200b0;
         public static final int mr_ic_play_dark=0x7f0200b1;
         public static final int mr_ic_play_light=0x7f0200b2;
-        public static final int notification_template_icon_bg=0x7f0200c0;
+        public static final int notification_template_icon_bg=0x7f0200c1;
         public static final int prod=0x7f0200b3;
         public static final int recive=0x7f0200b4;
         public static final int sa=0x7f0200b5;
@@ -2586,11 +2586,12 @@ containing a value of this type.
         public static final int sales=0x7f0200b8;
         public static final int setting=0x7f0200b9;
         public static final int sss=0x7f0200ba;
-        public static final int supply=0x7f0200bb;
-        public static final int swamy=0x7f0200bc;
-        public static final int tax=0x7f0200bd;
-        public static final int uploadimg=0x7f0200be;
-        public static final int vivekanada=0x7f0200bf;
+        public static final int star=0x7f0200bb;
+        public static final int supply=0x7f0200bc;
+        public static final int swamy=0x7f0200bd;
+        public static final int tax=0x7f0200be;
+        public static final int uploadimg=0x7f0200bf;
+        public static final int vivekanada=0x7f0200c0;
     }
     public static final class id {
         public static final int action0=0x7f07008b;

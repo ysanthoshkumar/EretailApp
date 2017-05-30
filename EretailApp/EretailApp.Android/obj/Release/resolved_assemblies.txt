@@ -27,11 +27,11 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\as
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\System.Diagnostics.Tools.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\System.Collections.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\System.Threading.Tasks.dll
-E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\System.Diagnostics.Debug.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\System.Linq.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\System.ComponentModel.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\System.Xml.ReaderWriter.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\System.Reflection.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\System.Diagnostics.Debug.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\System.ObjectModel.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\System.Globalization.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp.Android\obj\Release\android\assets\System.Linq.Expressions.dll

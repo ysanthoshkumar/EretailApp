@@ -125,6 +125,7 @@ E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.Bil
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.Views.HardwareSetting.xaml.g.cs
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.pdb
-E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.csprojResolveAssemblyReference.cache
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\obj\Debug\EretailApp.dll.mdb
 E:\Medium\Github\EretailApp\EretailApp\EretailApp\bin\Debug\EretailApp.dll.mdb
